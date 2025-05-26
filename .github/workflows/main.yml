@@ -21,3 +21,12 @@ jobs:
           unityVersion: 6000.0.47f1
           targetPlatform: StandaloneWindows64
           buildMethod: PackageIndexer.Run
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+          git diff --cached --quiet || git commit -m "Update generated package index"
+
+          git push origin HEAD
