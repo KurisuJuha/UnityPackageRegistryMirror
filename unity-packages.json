@@ -1,0 +1,1915 @@
+{"count":174, "packages":{
+"com.havok.physics":{
+    "name":"com.havok.physics",
+    "displayName":"Havok Physics for Unity",
+    "description":"Havok Physics for Unity is available to Pro, Enterprise, and Unity Industrial Collection users.\n\nHavok's award winning physics engine, applied to Unity’s Entity Component System (ECS)  framework. Havok Physics for Unity augments the Unity Physics package, allowing physics scenes authored for ECS to be simulated using the Havok Physics engine.",
+    "version":"1.3.14",
+    "dependencies":{
+        "com.unity.burst":"1.8.19","com.unity.physics":"1.3.14","com.unity.entities":"1.3.14","com.unity.collections":"2.5.7","com.unity.mathematics":"1.3.2","com.unity.test-framework":"1.4.6"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.havok.physics@1.3/manual/index.html"
+}
+,
+"com.unity.2d.animation":{
+    "name":"com.unity.2d.animation",
+    "displayName":"2D Animation",
+    "description":"2D Animation provides all the necessary tooling and runtime components for skeletal animation using Sprites.",
+    "version":"10.2.0",
+    "dependencies":{
+        "com.unity.2d.common":"9.1.0","com.unity.2d.sprite":"1.0.0","com.unity.collections":"1.2.4","com.unity.modules.animation":"1.0.0","com.unity.modules.uielements":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.2d.animation@10.2/manual/index.html"
+}
+,
+"com.unity.2d.aseprite":{
+    "name":"com.unity.2d.aseprite",
+    "displayName":"2D Aseprite Importer",
+    "description":"2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
+    "version":"1.1.9",
+    "dependencies":{
+        "com.unity.2d.common":"6.0.6","com.unity.2d.sprite":"1.0.0","com.unity.mathematics":"1.2.6","com.unity.modules.animation":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.2d.aseprite@1.1/manual/index.html"
+}
+,
+"com.unity.2d.pixel-perfect":{
+    "name":"com.unity.2d.pixel-perfect",
+    "displayName":"2D Pixel Perfect",
+    "description":"The 2D Pixel Perfect package contains the Pixel Perfect Camera component which ensures your pixel art remains crisp and clear at different resolutions, and stable in motion.\n\nIt is a single component that makes all the calculations needed to scale the viewport with resolution changes, removing the hassle from the user. The user can adjust the definition of the pixel art rendered within the camera viewport through the component settings, as well preview any changes immediately in Game view by using the Run in Edit Mode feature.",
+    "version":"5.1.0",
+    "dependencies":{
+        "com.unity.modules.imgui":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.2d.pixel-perfect@5.1/manual/index.html"
+}
+,
+"com.unity.2d.psdimporter":{
+    "name":"com.unity.2d.psdimporter",
+    "displayName":"2D PSD Importer",
+    "description":"A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop Big) file format. The ScriptedImporter is currently targeted for users who wants to create multi Sprite character animation using Unity 2D Animation Package.",
+    "version":"9.0.3",
+    "dependencies":{
+        "com.unity.2d.common":"9.0.4","com.unity.2d.sprite":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.2d.psdimporter@9.0/manual/index.html"
+}
+,
+"com.unity.2d.sprite":{
+    "name":"com.unity.2d.sprite",
+    "displayName":"2D Sprite",
+    "description":"Use Unity Sprite Editor Window to create and edit Sprite asset properties like pivot, borders and Physics shape",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.2d.spriteshape":{
+    "name":"com.unity.2d.spriteshape",
+    "displayName":"2D SpriteShape",
+    "description":"SpriteShape Runtime & Editor Package contains the tooling and the runtime component that allows you to create very organic looking spline based 2D worlds. It comes with intuitive configurator and a highly performant renderer.",
+    "version":"10.1.0",
+    "dependencies":{
+        "com.unity.2d.common":"9.1.0","com.unity.mathematics":"1.1.0","com.unity.modules.physics2d":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.2d.spriteshape@10.1/manual/index.html"
+}
+,
+"com.unity.2d.tilemap":{
+    "name":"com.unity.2d.tilemap",
+    "displayName":"2D Tilemap Editor",
+    "description":"2D Tilemap Editor is a package that contains editor functionalities for editing Tilemaps.",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.tilemap":"1.0.0","com.unity.modules.uielements":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.2d.tilemap.extras":{
+    "name":"com.unity.2d.tilemap.extras",
+    "displayName":"2D Tilemap Extras",
+    "description":"2D Tilemap Extras is a package that contains extra scripts for use with 2D Tilemap features in Unity. These include custom Tiles and Brushes for the Tilemap feature.\n\nThe following are included in the package:\nBrushes: GameObject Brush, Group Brush, Line Brush, Random Brush\nTiles: Animated Tile, Rule Tile, Rule Override Tile\nOther: Grid Information, Custom Rules for Rule Tile",
+    "version":"4.1.0",
+    "dependencies":{
+        "com.unity.2d.tilemap":"1.0.0","com.unity.modules.tilemap":"1.0.0","com.unity.modules.jsonserialize":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.2d.tilemap.extras@4.1/manual/index.html"
+}
+,
+"com.unity.adaptiveperformance":{
+    "name":"com.unity.adaptiveperformance",
+    "displayName":"Adaptive Performance",
+    "description":"The Adaptive Performance package provides an API to get feedback about the thermal and power state of mobile devices, enabling applications to make performance-relevant adaptions at runtime.\n\nFor instruction on how to use samples, please read the documentation.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+    "version":"5.1.4",
+    "dependencies":{
+        "com.unity.profiling.core":"1.0.2","com.unity.modules.subsystems":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.adaptiveperformance@5.1/manual/index.html"
+}
+,
+"com.unity.addressables":{
+    "name":"com.unity.addressables",
+    "displayName":"Addressables",
+    "description":"The Addressable Asset System allows the developer to ask for an asset via its address. Once an asset (e.g. a prefab) is marked \"addressable\", it generates an address which can be called from anywhere. Wherever the asset resides (local or remote), the system will locate it and its dependencies, then return it.\n\nUse 'Window->Asset Management->Addressables' to begin working with the system.\n\nAddressables use asynchronous loading to support loading from any location with any collection of dependencies. Whether you have been using direct references, traditional asset bundles, or Resource folders, addressables provide a simpler way to make your game more dynamic. Addressables simultaneously opens up the world of asset bundles while managing all the complexity.\n\nFor usage samples, see github.com/Unity-Technologies/Addressables-Sample",
+    "version":"2.5.0",
+    "dependencies":{
+        "com.unity.profiling.core":"1.0.2","com.unity.test-framework":"1.4.5","com.unity.modules.assetbundle":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.imageconversion":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0","com.unity.scriptablebuildpipeline":"2.4.0","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.addressables@2.5/manual/index.html"
+}
+,
+"com.unity.addressables.android":{
+    "name":"com.unity.addressables.android",
+    "displayName":"Addressables for Android",
+    "description":"The Addressables for Android package is designed to work in conjunction with the Addressables package to support Play Asset Delivery and provides tools to pack Addressables groups into Android asset packs. This way you can take full advantage of asset pack based dynamic delivery, including Texture Compression Targeting support when it's enabled for your project.",
+    "version":"1.0.6",
+    "dependencies":{
+        "com.unity.addressables":"2.3.16","com.unity.modules.androidjni":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.addressables.android@1.0/manual/index.html"
+}
+,
+"com.unity.ads":{
+    "name":"com.unity.ads",
+    "displayName":"Advertisement Legacy",
+    "description":"Connect your game to the Unity Ads Network for iOS and Android to quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces with ironSource and recommends using Unity LevelPlay for ad mediation (instead of this package). \n\nThis package will still be supported but no longer updated. To install Unity LevelPlay, use the Ads Mediation package (available below) or the LevelPlay plugin-in at https://developers.is.com/ironsource-mobile/unity/unity-plugin/.\n\nSupported platforms:\n- Android\n- iOS\n",
+    "version":"4.12.0",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.ads@4.12/manual/index.html"
+}
+,
+"com.unity.ads.ios-support":{
+    "name":"com.unity.ads.ios-support",
+    "displayName":"iOS 14 Advertising Support",
+    "description":"Provides support for App Tracking Transparency and SkAdNetwork API newly introduced in Apple iOS 14.\n\nIncludes a sample implementation of a customizable context screen to show before requesting tracking permission.",
+    "version":"1.2.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.ai.navigation":{
+    "name":"com.unity.ai.navigation",
+    "displayName":"AI Navigation",
+    "description":"The AI Navigation package contains high-level components that allow you to use navmeshes to incorporate navigation and pathfinding in your game. With this package installed you can build and use navmeshes at runtime and at edit time, create dynamic obstacles, and use links to allow specific actions (like jumping) as your characters navigate between navmeshes.",
+    "version":"2.0.7",
+    "dependencies":{
+        "com.unity.modules.ai":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.ai.navigation@2.0/manual/index.html"
+}
+,
+"com.unity.animation.rigging":{
+    "name":"com.unity.animation.rigging",
+    "displayName":"Animation Rigging",
+    "description":"Animation Rigging toolkit using Unity's Animation C# Jobs",
+    "version":"1.3.0",
+    "dependencies":{
+        "com.unity.burst":"1.4.1","com.unity.test-framework":"1.1.24"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.animation.rigging@1.3/manual/index.html"
+}
+,
+"com.unity.asset-manager-for-unity":{
+    "name":"com.unity.asset-manager-for-unity",
+    "displayName":"Asset Manager",
+    "description":"Asset Manager for Unity is an In-Editor tool that allows you to easily browse, upload and import assets between the Unity Editor and Unity Cloud.",
+    "version":"1.4.0",
+    "dependencies":{
+        "com.unity.modules.imgui":"1.0.0","com.unity.settings-manager":"2.0.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.asset-manager-for-unity@1.4/manual/index.html"
+}
+,
+"com.unity.behavior":{
+    "name":"com.unity.behavior",
+    "displayName":"Behavior",
+    "description":"Unity Behavior is a graph-based tool to create and run behavior trees with a modular architecture.\n\n▪ Human-readable graphs flow top-to-bottom with plain-language nodes\n▪ Comprehensive library of pre-built nodes for movement, detection, and decision-making\n▪ Seamless C# integration with a familiar lifecycle model\n▪ Hierarchical design supporting reusable subgraphs\n▪ Real-time debugging visualization during Play mode\n▪ Event-driven architecture for dynamic game reactions\n\nIdeal for NPC behaviors, quest logic, environmental interactions, and game state management.\n\nA demo showcasing this package can be found in the Asset Store <a href=https://assetstore.unity.com/packages/templates/tutorials/behavior-demo-for-unity-298313>https://assetstore.unity.com/packages/templates/tutorials/behavior-demo-for-unity-298313</a>.",
+    "version":"1.0.10",
+    "dependencies":{
+        "com.unity.burst":"1.7.2","com.unity.dt.app-ui":"2.0.0-pre.16","com.unity.modules.ai":"1.0.0","com.unity.collections":"2.1.4","com.unity.modules.audio":"1.0.0","com.unity.modules.animation":"1.0.0","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.particlesystem":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.behavior@1.0/manual/index.html"
+}
+,
+"com.unity.burst":{
+    "name":"com.unity.burst",
+    "displayName":"Burst",
+    "description":"Burst is a compiler that translates from IL/.NET bytecode to highly optimized native code using LLVM.",
+    "version":"1.8.21",
+    "dependencies":{
+        "com.unity.mathematics":"1.2.1","com.unity.modules.jsonserialize":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.burst@1.8/manual/index.html"
+}
+,
+"com.unity.charactercontroller":{
+    "name":"com.unity.charactercontroller",
+    "displayName":"Character Controller",
+    "description":"This package provides a customizable character controller solution for Entities. \n\n Navigate to the \"Samples\" tab in order to download the \"Standard Characters\", which serve as a starting point for implementing your own characters.",
+    "version":"1.3.11",
+    "dependencies":{
+        "com.unity.physics":"1.3.2","com.unity.entities":"1.3.2","com.unity.modules.physics":"1.0.0","com.unity.modules.uielements":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.charactercontroller@1.3/manual/index.html"
+}
+,
+"com.unity.cinemachine":{
+    "name":"com.unity.cinemachine",
+    "displayName":"Cinemachine",
+    "description":"Smart camera tools for passionate creators. \n\nCinemachine 3 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
+    "version":"3.1.3",
+    "dependencies":{
+        "com.unity.splines":"2.0.0","com.unity.modules.imgui":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.cinemachine@3.1/manual/index.html"
+}
+,
+"com.unity.collab-proxy":{
+    "name":"com.unity.collab-proxy",
+    "displayName":"Version Control",
+    "description":"The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting https://unity.com/solutions/version-control",
+    "version":"2.8.2",
+    "dependencies":{
+        
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.8/manual/index.html"
+}
+,
+"com.unity.collections":{
+    "name":"com.unity.collections",
+    "displayName":"Collections",
+    "description":"A C# collections library providing data structures that can be used in jobs, and optimized by Burst compiler.",
+    "version":"2.5.7",
+    "dependencies":{
+        "com.unity.burst":"1.8.19","com.unity.mathematics":"1.3.2","com.unity.test-framework":"1.4.6","com.unity.nuget.mono-cecil":"1.11.5","com.unity.test-framework.performance":"3.0.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.collections@2.5/manual/index.html"
+}
+,
+"com.unity.connect.share":{
+    "name":"com.unity.connect.share",
+    "displayName":"WebGL Publisher",
+    "description":"This tool allows you to make a WebGL build of your current project and upload it to Unity's website, where it can be shared with others.",
+    "version":"4.2.3",
+    "dependencies":{
+        "com.unity.editorcoroutines":"1.0.0","com.unity.settings-manager":"1.0.2"
+    },
+    "documentation":""
+}
+,
+"com.unity.dedicated-server":{
+    "name":"com.unity.dedicated-server",
+    "displayName":"Dedicated Server",
+    "description":"The Dedicated Server package contains optimizations and workflow improvements for developing Dedicated Server platform",
+    "version":"1.3.3",
+    "dependencies":{
+        
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.dedicated-server@1.3/manual/index.html"
+}
+,
+"com.unity.device-simulator.devices":{
+    "name":"com.unity.device-simulator.devices",
+    "displayName":"Device Simulator Devices",
+    "description":"This package contains additional devices for the Device Simulator. Each device has a complete device definition and includes a device overlay. After you install this package, the additional devices are immediately available in the Device Simulator.",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.editorcoroutines":{
+    "name":"com.unity.editorcoroutines",
+    "displayName":"Editor Coroutines",
+    "description":"The editor coroutines package allows developers to start constructs similar to Unity's monobehaviour based coroutines within the editor using abitrary objects. ",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.entities":{
+    "name":"com.unity.entities",
+    "displayName":"Entities",
+    "description":"The Entities package provides a modern Entity Component System (ECS) implementation with a basic set of systems and components made for Unity.",
+    "version":"1.3.14",
+    "dependencies":{
+        "com.unity.burst":"1.8.19","com.unity.collections":"2.5.7","com.unity.mathematics":"1.3.2","com.unity.modules.audio":"1.0.0","com.unity.serialization":"3.1.2","com.unity.profiling.core":"1.0.2","com.unity.modules.physics":"1.0.0","com.unity.nuget.mono-cecil":"1.11.5","com.unity.modules.uielements":"1.0.0","com.unity.modules.assetbundle":"1.0.0","com.unity.modules.unityanalytics":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0","com.unity.scriptablebuildpipeline":"1.21.25","com.unity.test-framework.performance":"3.0.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.entities@1.3/manual/index.html"
+}
+,
+"com.unity.entities.graphics":{
+    "name":"com.unity.entities.graphics",
+    "displayName":"Entities Graphics",
+    "description":"The Entities Graphics package provides systems and components for drawing meshes using DOTS, including support for instanced mesh rendering and LOD.",
+    "version":"1.4.12",
+    "dependencies":{
+        "com.unity.entities":"1.3.14","com.unity.render-pipelines.core":"14.0.10","com.unity.modules.particlesystem":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.entities.graphics@1.4/manual/index.html"
+}
+,
+"com.unity.feature.2d":{
+    "name":"com.unity.feature.2d",
+    "displayName":"2D",
+    "description":"Import images including multi-layered Photoshop files as Sprites and configure them to create 2D games. Create freeform, tile-based and spline-based 2D game worlds. Create frame-by-frame and bone-based animated characters. Integrated with 2D physics to support simulations with colliders and joints. Supports the needs of a range of 2D art styles, including pixel art.",
+    "version":"2.0.1",
+    "dependencies":{
+        "com.unity.2d.animation":"default","com.unity.2d.pixel-perfect":"default","com.unity.2d.psdimporter":"default","com.unity.2d.sprite":"default","com.unity.2d.spriteshape":"default","com.unity.2d.tilemap":"default","com.unity.2d.tilemap.extras":"default","com.unity.2d.aseprite":"default"
+    },
+    "documentation":""
+}
+,
+"com.unity.feature.ar":{
+    "name":"com.unity.feature.ar",
+    "displayName":"AR",
+    "description":"Create rich, deeply engaging augmented reality experiences with Unity’s AR Feature Set.  The AR Feature Set provides a starting point for augmented reality development, spanning from head-mounted displays to mobile.",
+    "version":"1.0.2",
+    "dependencies":{
+        "com.unity.xr.arfoundation":"default","com.unity.xr.arkit":"default","com.unity.xr.arcore":"default","com.unity.xr.interaction.toolkit":"default","com.unity.xr.magicleap":"default","com.unity.xr.openxr":"default"
+    },
+    "documentation":""
+}
+,
+"com.unity.feature.characters-animation":{
+    "name":"com.unity.feature.characters-animation",
+    "displayName":"3D Characters and Animation",
+    "description":"Animate characters and create cutscenes with the Characters and Animation feature set.\n\nBuild interactive character rigs and constraints to animate characters and GameObjects.\nArrange tracks and clips to create gameplay sequences, cutscenes, or movies.\nOrchestrate, shoot, and record beautiful narratives for cutscenes or movies.\nEasily round-trip to your 3D modeling software",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.animation.rigging":"default","com.unity.timeline":"default","com.unity.cinemachine":"default","com.unity.formats.fbx":"default"
+    },
+    "documentation":""
+}
+,
+"com.unity.feature.cinematic":{
+    "name":"com.unity.feature.cinematic",
+    "displayName":"Cinematic Studio",
+    "description":"Create films, TV shows, and other animated linear content. Organize and assemble your assets in structured sequences. Automate complex camera movements. Export data for round-trip and review, and output your final cut. Work with common film industry formats.",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.timeline":"default","com.unity.sequences":"default","com.unity.formats.fbx":"default","com.unity.formats.alembic":"default","com.unity.cinemachine":"default","com.unity.recorder":"default"
+    },
+    "documentation":""
+}
+,
+"com.unity.feature.development":{
+    "name":"com.unity.feature.development",
+    "displayName":"Engineering",
+    "description":"Optimize your development experience in Unity with the Dev Tools feature set. Enable support for multiple integrated development environments (IDE) for editing your Unity code. Get access to development tools to help you test and analyze your project’s performance.",
+    "version":"1.0.2",
+    "dependencies":{
+        "com.unity.ide.visualstudio":"default","com.unity.ide.rider":"default","com.unity.editorcoroutines":"default","com.unity.performance.profile-analyzer":"default","com.unity.test-framework":"default","com.unity.testtools.codecoverage":"default"
+    },
+    "documentation":""
+}
+,
+"com.unity.feature.gameplay-storytelling":{
+    "name":"com.unity.feature.gameplay-storytelling",
+    "displayName":"Gameplay and Storytelling",
+    "description":"Bring your project to life with the easy-to-use story creation features provided in the Gameplay and Storytelling feature set.\nArrange cinematic content and audiovisual sequences with Timeline.\nLeverage Cinemachine to quickly setup the right dynamic camera shots.\nUse Visual Scripting to connect it all together with intuitive, node-based graphs.",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.cinemachine":"default","com.unity.timeline":"default","com.unity.visualscripting":"default"
+    },
+    "documentation":""
+}
+,
+"com.unity.feature.mobile":{
+    "name":"com.unity.feature.mobile",
+    "displayName":"Mobile",
+    "description":"Optimize your apps for mobile devices and provide a performant experience for your users. Includes utilities for debugging on device and support for notifications.",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.mobile.android-logcat":"default","com.unity.adaptiveperformance":"default","com.unity.mobile.notifications":"default"
+    },
+    "documentation":""
+}
+,
+"com.unity.feature.vr":{
+    "name":"com.unity.feature.vr",
+    "displayName":"VR",
+    "description":"Create Immersive virtual reality experiences with Unity’s VR Feature Set.  The VR Feature Set provides a starting point for VR development, installing all relevant packages necessary for adding interactivity to your apps.",
+    "version":"1.0.1",
+    "dependencies":{
+        "com.unity.xr.interaction.toolkit":"default","com.unity.xr.oculus":"default","com.unity.xr.openxr":"default"
+    },
+    "documentation":""
+}
+,
+"com.unity.feature.worldbuilding":{
+    "name":"com.unity.feature.worldbuilding",
+    "displayName":"3D World Building",
+    "description":"Create attractive 3D environments with the World building feature set and round-trip assets between your 3D modeling software of choice using FBX to realize your creative intent. Create geometry, sculpt meshes, & terrain, blend textures, and place objects throughout your scene using artist driven tools to create believable interactive environments.",
+    "version":"1.0.1",
+    "dependencies":{
+        "com.unity.probuilder":"default","com.unity.polybrush":"default","com.unity.formats.fbx":"default","com.unity.terrain-tools":"default"
+    },
+    "documentation":""
+}
+,
+"com.unity.formats.alembic":{
+    "name":"com.unity.formats.alembic",
+    "displayName":"Alembic",
+    "description":"Import and export Alembic files (.abc), record and stream animations in the Alembic format directly in Unity.\nNOTE: Supported build platforms: only Windows 64-bit/Arm64, macOS X, and Linux 64.\n\nThe Alembic format is commonly used in animation to transfer facial, cloth, and other simulation between applications in the form of baked data.",
+    "version":"2.4.0",
+    "dependencies":{
+        "com.unity.timeline":"1.0.0","com.unity.modules.cloth":"1.0.0","com.unity.modules.unityanalytics":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.formats.alembic@2.4/manual/index.html"
+}
+,
+"com.unity.formats.fbx":{
+    "name":"com.unity.formats.fbx",
+    "displayName":"FBX Exporter",
+    "description":"The FBX Exporter package enables round-trip workflows between Unity and 3D modeling software. Send geometry, Lights, Cameras, and animation from Unity to Autodesk® Maya®, Autodesk® Maya LT™, or Autodesk® 3ds Max®, and back to Unity again, with minimal effort.",
+    "version":"5.1.3",
+    "dependencies":{
+        "com.autodesk.fbx":"5.1.1","com.unity.timeline":"1.7.1"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.formats.fbx@5.1/manual/index.html"
+}
+,
+"com.unity.ide.rider":{
+    "name":"com.unity.ide.rider",
+    "displayName":"JetBrains Rider Editor",
+    "description":"The JetBrains Rider Editor package provides an integration for using the JetBrains Rider IDE as a code editor for Unity. It adds support for generating .csproj files for code completion and auto-discovery of installations.",
+    "version":"3.0.36",
+    "dependencies":{
+        "com.unity.ext.nunit":"1.0.6"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html"
+}
+,
+"com.unity.ide.visualstudio":{
+    "name":"com.unity.ide.visualstudio",
+    "displayName":"Visual Studio Editor",
+    "description":"Code editor integration for supporting Visual Studio as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
+    "version":"2.0.23",
+    "dependencies":{
+        "com.unity.test-framework":"1.1.9"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html"
+}
+,
+"com.unity.inputsystem":{
+    "name":"com.unity.inputsystem",
+    "displayName":"Input System",
+    "description":"A new input system which can be used as a more extensible and customizable alternative to Unity's classic input system in UnityEngine.Input.",
+    "version":"1.14.0",
+    "dependencies":{
+        "com.unity.modules.uielements":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.inputsystem@1.14/manual/index.html"
+}
+,
+"com.unity.learn.iet-framework":{
+    "name":"com.unity.learn.iet-framework",
+    "displayName":"Tutorial Framework",
+    "description":"This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
+    "version":"4.1.3",
+    "dependencies":{
+        "com.unity.editorcoroutines":"1.0.0","com.unity.settings-manager":"1.0.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.learn.iet-framework@4.1/manual/index.html"
+}
+,
+"com.unity.learn.iet-framework.authoring":{
+    "name":"com.unity.learn.iet-framework.authoring",
+    "displayName":"Tutorial Authoring Tools",
+    "description":"Authoring tools for In-Editor Tutorials. Required for authoring In-Editor Tutorial assets.",
+    "version":"1.3.2",
+    "dependencies":{
+        "com.unity.learn.iet-framework":"4.1.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.learn.iet-framework.authoring@1.3/manual/index.html"
+}
+,
+"com.unity.live-capture":{
+    "name":"com.unity.live-capture",
+    "displayName":"Live Capture",
+    "description":"Capture data from physical devices to animate characters and cameras in real time within the Editor. Record the animations in the form of takes and iterate on the recordings. Genlock and synchronize devices for frame and timecode accuracy.",
+    "version":"4.0.1",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0","com.unity.timeline":"1.7.0","com.unity.modules.physics":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.imageconversion":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.live-capture@4.0/manual/index.html"
+}
+,
+"com.unity.localization":{
+    "name":"com.unity.localization",
+    "displayName":"Localization",
+    "description":"Use the Localization package to easily configure localization settings for your application.\n\nAdd support for multiple languages and regional variants, including:\n\n• String localization: Set different strings to display based on locale. Use the Smart Strings feature to add logic to automatically replace specific strings, such as placeholders and plurals.\n• Asset localization: Use a different asset (such as a texture, model, or audio file) based on a locale.\n• Pseudo-localization: Test how your project will adapt to different localizations at an early stage, before adding your translations.\n• Import and export localization data to XLIFF, CSV and Google Sheets.\n\nAdd localization to your projects using the Localization package to help make your applications more accessible to a wider audience.",
+    "version":"1.5.4",
+    "dependencies":{
+        "com.unity.addressables":"1.22.2","com.unity.nuget.newtonsoft-json":"3.0.2"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.localization@1.5/manual/index.html"
+}
+,
+"com.unity.logging":{
+    "name":"com.unity.logging",
+    "displayName":"Unity Logging",
+    "description":"The Logging package provides interfaces for creating and processing runtime events and logging output.",
+    "version":"1.3.10",
+    "dependencies":{
+        "com.unity.burst":"1.8.19","com.unity.collections":"2.5.7"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.logging@1.3/manual/index.html"
+}
+,
+"com.unity.mathematics":{
+    "name":"com.unity.mathematics",
+    "displayName":"Mathematics",
+    "description":"Unity's C# SIMD math library providing vector types and math functions with a shader like syntax.",
+    "version":"1.3.2",
+    "dependencies":{
+        
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.mathematics@1.3/manual/index.html"
+}
+,
+"com.unity.memoryprofiler":{
+    "name":"com.unity.memoryprofiler",
+    "displayName":"Memory Profiler",
+    "description":"The Memory Profiler offers a unified solution allowing you to profile both small projects on mobile devices and big AAA projects on high end machines. It provides actionable information about allocations in the engine to allow developers to manage and reduce memory usage.",
+    "version":"1.1.6",
+    "dependencies":{
+        "com.unity.burst":"1.8.0","com.unity.collections":"1.2.3","com.unity.mathematics":"1.2.1","com.unity.profiling.core":"1.0.0","com.unity.editorcoroutines":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.memoryprofiler@1.1/manual/index.html"
+}
+,
+"com.unity.microsoft.gdk":{
+    "name":"com.unity.microsoft.gdk",
+    "displayName":"Microsoft GDK API",
+    "description":"Provides support for the Microsoft Game Development Kit making it available to approved platforms. Requires the Microsoft platform APIs to be pre-installed.",
+    "version":"1.3.0",
+    "dependencies":{
+        
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.microsoft.gdk@1.3/manual/index.html"
+}
+,
+"com.unity.microsoft.gdk.tools":{
+    "name":"com.unity.microsoft.gdk.tools",
+    "displayName":"Microsoft GDK Tools",
+    "description":"This package adds GDK workflow support when used in combination with com.unity.microsoft.gdk",
+    "version":"1.3.0",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.microsoft.gdk.tools@1.3/manual/index.html"
+}
+,
+"com.unity.ml-agents":{
+    "name":"com.unity.ml-agents",
+    "displayName":"ML Agents",
+    "description":"Use state-of-the-art machine learning to create intelligent character behaviors in any Unity environment (games, robotics, film, etc.).",
+    "version":"3.0.0",
+    "dependencies":{
+        "com.unity.sentis":"2.1.0","com.unity.modules.physics":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.imageconversion":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.ml-agents@3.0/manual/index.html"
+}
+,
+"com.unity.mobile.android-logcat":{
+    "name":"com.unity.mobile.android-logcat",
+    "displayName":"Android Logcat",
+    "description":"Android Logcat package provides support for:\n - Android log messages\n - Android application memory statistics\n - Input injection\n - Android Screen Capture\n - Android Screen Recorder\n - Stacktrace Utility\n\nClick the 'View documentation' link above for more information.\n\nThe window can be accessed in Unity Editor via 'Window > Analysis > Android Logcat', or simply by pressing 'Alt+6' on Windows or 'Option+6' on macOS. \n\nMake sure to have Android module loaded and switch to Android build target in 'Build Settings' window if the menu doesn't exist.",
+    "version":"1.4.5",
+    "dependencies":{
+        
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.mobile.android-logcat@1.4/manual/index.html"
+}
+,
+"com.unity.mobile.notifications":{
+    "name":"com.unity.mobile.notifications",
+    "displayName":"Mobile Notifications",
+    "description":"Mobile Notifications package adds support for scheduling local repeatable or one-time notifications on iOS and Android.\n\nOn iOS receiving of push notifications is also supported.",
+    "version":"2.4.0",
+    "dependencies":{
+        "com.unity.modules.androidjni":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.mobile.notifications@2.4/manual/index.html"
+}
+,
+"com.unity.modules.accessibility":{
+    "name":"com.unity.modules.accessibility",
+    "displayName":"Accessibility",
+    "description":"The Accessibility module includes utilities to facilitate the development of accessible user experiences in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AccessibilityModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.ai":{
+    "name":"com.unity.modules.ai",
+    "displayName":"AI",
+    "description":"The AI module implements the path finding features in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AIModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.amd":{
+    "name":"com.unity.modules.amd",
+    "displayName":"AMD",
+    "description":"A module that contains API you can use to interact with AMD graphics cards. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AMDModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.androidjni":{
+    "name":"com.unity.modules.androidjni",
+    "displayName":"Android JNI",
+    "description":"AndroidJNI module allows you to call Java code. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AndroidJNIModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.animation":{
+    "name":"com.unity.modules.animation",
+    "displayName":"Animation",
+    "description":"The Animation module implements Unity's animation system. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AnimationModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.assetbundle":{
+    "name":"com.unity.modules.assetbundle",
+    "displayName":"Asset Bundle",
+    "description":"The AssetBundle module implements the AssetBundle class and related APIs to load data from AssetBundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AssetBundleModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.audio":{
+    "name":"com.unity.modules.audio",
+    "displayName":"Audio",
+    "description":"The Audio module implements Unity's audio system. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.AudioModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.cloth":{
+    "name":"com.unity.modules.cloth",
+    "displayName":"Cloth",
+    "description":"The Cloth module implements cloth physics simulation through the Cloth component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ClothModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.physics":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.director":{
+    "name":"com.unity.modules.director",
+    "displayName":"Director",
+    "description":"The Director module implements the PlayableDirector class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.DirectorModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.audio":"1.0.0","com.unity.modules.animation":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.imageconversion":{
+    "name":"com.unity.modules.imageconversion",
+    "displayName":"Image Conversion",
+    "description":"The ImageConversion module implements the ImageConversion class which provides helper methods for converting image data. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ImageConversionModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.imgui":{
+    "name":"com.unity.modules.imgui",
+    "displayName":"IMGUI",
+    "description":"The IMGUI module provides Unity's immediate mode GUI solution for creating in-game and editor user interfaces. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.IMGUIModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.jsonserialize":{
+    "name":"com.unity.modules.jsonserialize",
+    "displayName":"JSONSerialize",
+    "description":"The JSONSerialize module provides the JsonUtility class which lets you serialize Unity Objects to JSON format. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.JSONSerializeModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.nvidia":{
+    "name":"com.unity.modules.nvidia",
+    "displayName":"NVIDIA",
+    "description":"A module that contains API you can use to interact with NVIDIA graphics cards. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.NVIDIAModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.particlesystem":{
+    "name":"com.unity.modules.particlesystem",
+    "displayName":"Particle System",
+    "description":"The ParticleSystem module implements Unity's Particle System. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ParticleSystemModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.physics":{
+    "name":"com.unity.modules.physics",
+    "displayName":"Physics",
+    "description":"The Physics module implements 3D physics in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.PhysicsModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.physics2d":{
+    "name":"com.unity.modules.physics2d",
+    "displayName":"Physics 2D",
+    "description":"The Physics2d module implements 2D physics in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.Physics2DModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.screencapture":{
+    "name":"com.unity.modules.screencapture",
+    "displayName":"Screen Capture",
+    "description":"The ScreenCapture module provides functionality to take screen shots using the ScreenCapture class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.ScreenCaptureModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.imageconversion":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.terrain":{
+    "name":"com.unity.modules.terrain",
+    "displayName":"Terrain",
+    "description":"The Terrain module implements Unity's Terrain rendering engine available through the Terrain component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.terrainphysics":{
+    "name":"com.unity.modules.terrainphysics",
+    "displayName":"Terrain Physics",
+    "description":"The TerrainPhysics module connects the Terrain and Physics modules by implementing the TerrainCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TerrainPhysicsModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.physics":"1.0.0","com.unity.modules.terrain":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.tilemap":{
+    "name":"com.unity.modules.tilemap",
+    "displayName":"Tilemap",
+    "description":"The Tilemap module implements the Tilemap class. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.TilemapModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.physics2d":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.ui":{
+    "name":"com.unity.modules.ui",
+    "displayName":"UI",
+    "description":"The UI module implements basic components required for Unity's UI system Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.uielements":{
+    "name":"com.unity.modules.uielements",
+    "displayName":"UIElements",
+    "description":"The UIElements module implements the UIElements retained mode UI framework. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UIElementsModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.ui":"1.0.0","com.unity.modules.imgui":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.hierarchycore":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.umbra":{
+    "name":"com.unity.modules.umbra",
+    "displayName":"Umbra",
+    "description":"The Umbra module implements Unity's occlusion culling system. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UmbraModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.unityanalytics":{
+    "name":"com.unity.modules.unityanalytics",
+    "displayName":"Unity Analytics",
+    "description":"",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.unitywebrequest":"1.0.0","com.unity.modules.jsonserialize":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.unitywebrequest":{
+    "name":"com.unity.modules.unitywebrequest",
+    "displayName":"Unity Web Request",
+    "description":"The UnityWebRequest module lets you communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.unitywebrequestassetbundle":{
+    "name":"com.unity.modules.unitywebrequestassetbundle",
+    "displayName":"Unity Web Request Asset Bundle",
+    "description":"The UnityWebRequestAssetBundle module provides the DownloadHandlerAssetBundle class to use UnityWebRequest to download Asset Bundles. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAssetBundleModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.assetbundle":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.unitywebrequestaudio":{
+    "name":"com.unity.modules.unitywebrequestaudio",
+    "displayName":"Unity Web Request Audio",
+    "description":"The UnityWebRequestAudio module provides the DownloadHandlerAudioClip class to use UnityWebRequest to download AudioClips. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestAudioModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.unitywebrequest":"1.0.0","com.unity.modules.audio":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.unitywebrequesttexture":{
+    "name":"com.unity.modules.unitywebrequesttexture",
+    "displayName":"Unity Web Request Texture",
+    "description":"The UnityWebRequestTexture module provides the DownloadHandlerTexture class to use UnityWebRequest to download Textures. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestTextureModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.unitywebrequest":"1.0.0","com.unity.modules.imageconversion":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.unitywebrequestwww":{
+    "name":"com.unity.modules.unitywebrequestwww",
+    "displayName":"Unity Web Request WWW",
+    "description":"The UnityWebRequestWWW module implements the legacy WWW lets you communicate with http services. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.UnityWebRequestWWWModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.unitywebrequest":"1.0.0","com.unity.modules.unitywebrequestassetbundle":"1.0.0","com.unity.modules.unitywebrequestaudio":"1.0.0","com.unity.modules.audio":"1.0.0","com.unity.modules.assetbundle":"1.0.0","com.unity.modules.imageconversion":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.vehicles":{
+    "name":"com.unity.modules.vehicles",
+    "displayName":"Vehicles",
+    "description":"The Vehicles module implements vehicle physics simulation through the WheelCollider component. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VehiclesModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.physics":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.video":{
+    "name":"com.unity.modules.video",
+    "displayName":"Video",
+    "description":"The Video module lets you play back video files in your content. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VideoModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.audio":"1.0.0","com.unity.modules.ui":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.vr":{
+    "name":"com.unity.modules.vr",
+    "displayName":"VR",
+    "description":"The VR module implements support for virtual reality devices in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.physics":"1.0.0","com.unity.modules.xr":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.wind":{
+    "name":"com.unity.modules.wind",
+    "displayName":"Wind",
+    "description":"The Wind module implements the WindZone component which can affect terrain rendering and particle simulations. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.WindModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.modules.xr":{
+    "name":"com.unity.modules.xr",
+    "displayName":"XR",
+    "description":"The XR module contains the VR and AR related platform support functionality. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.XRModule.html",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.physics":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.subsystems":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.multiplayer.center":{
+    "name":"com.unity.multiplayer.center",
+    "displayName":"Multiplayer Center",
+    "description":"The multiplayer center provides a starting point to create multiplayer games. It will recommend specific packages and enable you to easily access integrations, samples and documentation.",
+    "version":"1.0.0",
+    "dependencies":{
+        "com.unity.modules.uielements":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.multiplayer.playmode":{
+    "name":"com.unity.multiplayer.playmode",
+    "displayName":"Multiplayer Play Mode",
+    "description":"Multiplayer Play Mode is a feature that enables multiple editor instances to be opened simultaneously on the same development device.",
+    "version":"1.3.3",
+    "dependencies":{
+        "com.unity.nuget.newtonsoft-json":"2.0.2"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.multiplayer.playmode@1.3/manual/index.html"
+}
+,
+"com.unity.multiplayer.tools":{
+    "name":"com.unity.multiplayer.tools",
+    "displayName":"Multiplayer Tools",
+    "description":"Adds a suite of tools that improve workflows for multiplayer development",
+    "version":"2.2.3",
+    "dependencies":{
+        "com.unity.burst":"1.8.18","com.unity.collections":"2.5.1","com.unity.mathematics":"1.3.2","com.unity.profiling.core":"1.0.2","com.unity.nuget.mono-cecil":"1.11.4","com.unity.modules.uielements":"1.0.0","com.unity.nuget.newtonsoft-json":"3.2.1"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.multiplayer.tools@2.2/manual/index.html"
+}
+,
+"com.unity.multiplayer.widgets":{
+    "name":"com.unity.multiplayer.widgets",
+    "displayName":"Multiplayer Widgets",
+    "description":"The Multiplayer Widgets package provides a set of widgets that help implementing Unity's multiplayer services in a rapid prototyping fashion.",
+    "version":"1.0.1",
+    "dependencies":{
+        "com.unity.services.multiplayer":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.multiplayer.widgets@1.0/manual/index.html"
+}
+,
+"com.unity.muse.chat":{
+    "name":"com.unity.muse.chat",
+    "displayName":"Muse Chat",
+    "description":"With Muse Chat, you can easily enhance your Unity skills and boost productivity by generating project-specific information, coding solutions, and resolutions to issues such as console errors.",
+    "version":"1.1.1-pre.4",
+    "dependencies":{
+        "com.unity.muse.common":"2.0.10","com.unity.serialization":"3.1.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.muse.chat@1.1/manual/index.html"
+}
+,
+"com.unity.muse.sprite":{
+    "name":"com.unity.muse.sprite",
+    "displayName":"Muse Sprite",
+    "description":"With Muse Sprite, you can instantly create and easily edit AI-generated 2D assets from text prompts. These generations are powered by Unity’s own proprietary and responsibly built AI model.",
+    "version":"1.1.1",
+    "dependencies":{
+        "com.unity.muse.common":"2.0.3","com.unity.modules.uielements":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.muse.sprite@1.1/manual/index.html"
+}
+,
+"com.unity.muse.texture":{
+    "name":"com.unity.muse.texture",
+    "displayName":"Muse Texture",
+    "description":"With Muse Texture, you can create and edit AI-generated textures from text prompts and pattern guides. These generations are powered by Unity’s own proprietary and responsibly built model.",
+    "version":"1.1.1",
+    "dependencies":{
+        "com.unity.muse.common":"2.0.3","com.unity.shadergraph":"14.0.7"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.muse.texture@1.1/manual/index.html"
+}
+,
+"com.unity.netcode":{
+    "name":"com.unity.netcode",
+    "displayName":"Netcode for Entities",
+    "description":"Unity's Data Oriented Technology Stack (DOTS) multiplayer netcode layer - a high level netcode system built on entities. This package provides a foundation for creating networked multiplayer applications within DOTS.",
+    "version":"1.5.1",
+    "dependencies":{
+        "com.unity.entities":"1.3.5","com.unity.transport":"2.4.0","com.unity.modules.animation":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode@1.5/manual/index.html"
+}
+,
+"com.unity.netcode.gameobjects":{
+    "name":"com.unity.netcode.gameobjects",
+    "displayName":"Netcode for GameObjects",
+    "description":"Netcode for GameObjects is a high-level netcode SDK that provides networking capabilities to GameObject/MonoBehaviour workflows within Unity and sits on top of underlying transport layer.",
+    "version":"2.3.2",
+    "dependencies":{
+        "com.unity.transport":"2.4.0","com.unity.nuget.mono-cecil":"1.11.4"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.3/manual/index.html"
+}
+,
+"com.unity.performance.profile-analyzer":{
+    "name":"com.unity.performance.profile-analyzer",
+    "displayName":"Profile Analyzer",
+    "description":"The Profile Analyzer tool supports the standard Unity Profiler. You can use it to analyze multiple frames and multiple data sets of the CPU data in the Profiler.\n\nMain features: \n▪ Multi-frame analysis of a single set of Profiler CPU data \n▪ Comparison of two multi-frame profile scans \n\n",
+    "version":"1.2.3",
+    "dependencies":{
+        
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.performance.profile-analyzer@1.2/manual/index.html"
+}
+,
+"com.unity.physics":{
+    "name":"com.unity.physics",
+    "displayName":"Unity Physics",
+    "description":"Unity's C# stateless physics library.\n\nBuilt on top of the Unity C# ECS framework, Unity Physics is network-ready, completely customizable, and built for performance out of the box. Whether you're building the next mobile hit or a new networked multiplayer console experience, Unity Physics leverages the Burst compiler and Job system to scale across a range of hardware.",
+    "version":"1.3.14",
+    "dependencies":{
+        "com.unity.burst":"1.8.19","com.unity.entities":"1.3.14","com.unity.collections":"2.5.7","com.unity.mathematics":"1.3.2","com.unity.modules.imgui":"1.0.0","com.unity.test-framework":"1.4.6","com.unity.modules.jsonserialize":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.physics@1.3/manual/index.html"
+}
+,
+"com.unity.polybrush":{
+    "name":"com.unity.polybrush",
+    "displayName":"Polybrush",
+    "description":"Mesh painting, sculpting, and geo-scattering tool for Unity.",
+    "version":"1.1.8",
+    "dependencies":{
+        "com.unity.settings-manager":"2.0.1"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.polybrush@1.1/manual/index.html"
+}
+,
+"com.unity.polyspatial.extensions":{
+    "name":"com.unity.polyspatial.extensions",
+    "displayName":"PolySpatial Extensions",
+    "description":"The PolySpatial Extensions package offers a range of additional features that may prove useful to some users enhancing the overall functionality of the PolySpatial package.\nUnity PolySpatial and visionOS support is only available to Unity Pro, Unity Enterprise, and Unity Industry users. Learn more about these plans at unity.com/pricing.",
+    "version":"2.2.4",
+    "dependencies":{
+        "com.unity.entities":"1.2.4","com.unity.inputsystem":"1.10.0","com.unity.polyspatial":"2.2.4","com.unity.xr.management":"4.5.0","com.unity.polyspatial.xr":"2.2.4","com.unity.entities.graphics":"1.2.4","com.unity.render-pipelines.universal":"17.0.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.polyspatial.extensions@2.2/manual/index.html"
+}
+,
+"com.unity.polyspatial.visionos":{
+    "name":"com.unity.polyspatial.visionos",
+    "displayName":"PolySpatial visionOS",
+    "description":"Unity PolySpatial integration package to support shared and immersive mode rendering on Apple visionOS.\nUnity PolySpatial and visionOS support is only available to Unity Pro, Unity Enterprise, and Unity Industry users. Learn more about these plans at unity.com/pricing.",
+    "version":"2.2.4",
+    "dependencies":{
+        "com.unity.polyspatial":"2.2.4","com.unity.xr.visionos":"2.2.4","com.unity.xr.management":"4.5.0","com.unity.polyspatial.xr":"2.2.4"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.polyspatial.visionos@2.2/manual/index.html"
+}
+,
+"com.unity.postprocessing":{
+    "name":"com.unity.postprocessing",
+    "displayName":"Post Processing",
+    "description":"The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
+    "version":"3.4.0",
+    "dependencies":{
+        "com.unity.modules.physics":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.postprocessing@3.4/manual/index.html"
+}
+,
+"com.unity.probuilder":{
+    "name":"com.unity.probuilder",
+    "displayName":"ProBuilder",
+    "description":"Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
+    "version":"6.0.5",
+    "dependencies":{
+        "com.unity.shadergraph":"17.0.3","com.unity.modules.imgui":"1.0.0","com.unity.modules.physics":"1.0.0","com.unity.settings-manager":"1.0.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.probuilder@6.0/manual/index.html"
+}
+,
+"com.unity.profiling.core":{
+    "name":"com.unity.profiling.core",
+    "displayName":"Unity Profiling Core API",
+    "description":"The Unity Profiling Core package provides an API for code instrumentation markup, and for profiling statistic collection.",
+    "version":"1.0.2",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.profiling.systemmetrics.mali":{
+    "name":"com.unity.profiling.systemmetrics.mali",
+    "displayName":"System Metrics Mali",
+    "description":"The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
+    "version":"1.0.3",
+    "dependencies":{
+        
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.profiling.systemmetrics.mali@1.0/manual/index.html"
+}
+,
+"com.unity.purchasing":{
+    "name":"com.unity.purchasing",
+    "displayName":"In App Purchasing",
+    "description":"IMPORTANT UPGRADE NOTES:\n\nIf updating from Unity IAP (com.unity.purchasing + the Asset Store plugin) versions 2.x to version 3.x, complete the following actions in order to resolve compilation errors:\n 1. Move IAPProductCatalog.json and BillingMode.json\n\tFROM: Assets/Plugins/UnityPurchasing/Resources/\n\tTO: Assets/Resources/.\n 2. Move AppleTangle.cs and GooglePlayTangle.cs\n\tFROM: Assets/Plugins/UnityPurchasing/generated\n\tTO: Assets/Scripts/UnityPurchasing/generated.\n 3. Remove all remaining Asset Store plugin folders and files in Assets/Plugins/UnityPurchasing from your project.\n\nPACKAGE DESCRIPTION:\n\nWith Unity IAP, setting up in-app purchases for your game across multiple app stores has never been easier.\n\nThis package provides:\n\n ▪ One common API to access all stores for free so you can fully understand and optimize your in-game economy\n ▪ Automatic coupling with Unity Analytics to enable monitoring and decision-making based on trends in your revenue and purchase data across multiple platforms\n ▪ Support for iOS, Mac, tvOS, Google Play, Windows, and Amazon app stores(*).\n ▪ Support to work with the Unity Distribution Portal to synchronize catalogs and transactions with other app stores\n ▪ Client-side receipt validation for Apple App Store and Google Play\n\nAfter installing this package, open the Services Window to enable In-App Purchasing to use these features.",
+    "version":"4.12.2",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.12.5","com.unity.modules.androidjni":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.purchasing@4.12/manual/index.html"
+}
+,
+"com.unity.recorder":{
+    "name":"com.unity.recorder",
+    "displayName":"Recorder",
+    "description":"The Recorder allows you to capture and save data from the Unity Editor during Play mode: animations, videos, images, audio, AOVs, and more.",
+    "version":"5.1.2",
+    "dependencies":{
+        "com.unity.timeline":"1.8.7","com.unity.collections":"1.2.4","com.unity.bindings.openimageio":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.recorder@5.1/manual/index.html"
+}
+,
+"com.unity.remote-config":{
+    "name":"com.unity.remote-config",
+    "displayName":"Remote Config",
+    "description":"Remote Config is a cloud service that lets you tune and customize your app over the air without requiring an update to your game.  You can use rules to enable or disable features, change the difficulty of your game or run special events to target specific audiences.  Campaigns control when updates are applied and to whom, while Unity manages delivery of your game content with minimal performance impact. \n\nRemote Config can be configured via the editor or through our public API’s.  Functionality includes: \n- Release new features without deploying code:\n   - Feature flagging\n   - Staged Rollouts\n   - Kill switch functionality\n   - Start & End Date\n   - Enable & disable rules\n- Personalized real-time segmentation with custom attributes\n   - Custom conditions for applying setting variants\n   - Device, user, game and other arbitrary attributes supporting\n- Reporting\n   - Tracing ID for decorating analytics events",
+    "version":"4.1.1",
+    "dependencies":{
+        "com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.remote-config-runtime":"4.0.2","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.remote-config@4.1/manual/index.html"
+}
+,
+"com.unity.render-pipelines.core":{
+    "name":"com.unity.render-pipelines.core",
+    "displayName":"Core RP Library",
+    "description":"SRP Core makes it easier to create or customize a Scriptable Render Pipeline (SRP). SRP Core contains reusable code, including boilerplate code for working with platform-specific graphics APIs, utility functions for common rendering operations, and  shader libraries. The code in SRP Core is use by the High Definition Render Pipeline (HDRP) and Universal Render Pipeline (URP). If you are creating a custom SRP from scratch or customizing a prebuilt SRP, using SRP Core will save you time.",
+    "version":"17.0.4",
+    "dependencies":{
+        "com.unity.burst":"1.8.14","com.unity.mathematics":"1.3.2","com.unity.ugui":"2.0.0","com.unity.collections":"2.4.3","com.unity.modules.physics":"1.0.0","com.unity.modules.terrain":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.rendering.light-transport":"1.0.1"
+    },
+    "documentation":""
+}
+,
+"com.unity.render-pipelines.high-definition":{
+    "name":"com.unity.render-pipelines.high-definition",
+    "displayName":"High Definition RP",
+    "description":"The High Definition Render Pipeline (HDRP) is a high-fidelity Scriptable Render Pipeline built by Unity to target modern (Compute Shader compatible) platforms. HDRP utilizes Physically-Based Lighting techniques, linear lighting, HDR lighting, and a configurable hybrid Tile/Cluster deferred/Forward lighting architecture and gives you the tools you need to create games, technical demos, animations, and more to a high graphical standard.",
+    "version":"17.0.4",
+    "dependencies":{
+        "com.unity.modules.video":"1.0.0","com.unity.modules.animation":"1.0.0","com.unity.modules.imageconversion":"1.0.0","com.unity.render-pipelines.core":"17.0.4","com.unity.shadergraph":"17.0.4","com.unity.visualeffectgraph":"17.0.4","com.unity.render-pipelines.high-definition-config":"17.0.4"
+    },
+    "documentation":""
+}
+,
+"com.unity.render-pipelines.universal":{
+    "name":"com.unity.render-pipelines.universal",
+    "displayName":"Universal RP",
+    "description":"The Universal Render Pipeline (URP) is a prebuilt Scriptable Render Pipeline, made by Unity. URP provides artist-friendly workflows that let you quickly and easily create optimized graphics across a range of platforms, from mobile to high-end consoles and PCs.",
+    "version":"17.0.4",
+    "dependencies":{
+        "com.unity.render-pipelines.core":"17.0.4","com.unity.shadergraph":"17.0.4","com.unity.render-pipelines.universal-config":"17.0.3"
+    },
+    "documentation":""
+}
+,
+"com.unity.rendering.denoising":{
+    "name":"com.unity.rendering.denoising",
+    "displayName":"Unity Denoising",
+    "description":"Unity Denoising exposes a common high level denoising API for a number of different high quality denoising backends that can be used in the HDRP path tracer, in user scripts or the Unity Progressive Lightmapper",
+    "version":"1.0.5",
+    "dependencies":{
+        
+    },
+    "documentation":""
+}
+,
+"com.unity.scriptablebuildpipeline":{
+    "name":"com.unity.scriptablebuildpipeline",
+    "displayName":"Scriptable Build Pipeline",
+    "description":"The Scriptable Build Pipeline moves the asset bundle build pipeline to C#.  Use the pre-defined build flows, or create your own using the divided up APIs.  This system improves build time, fixes incremental build, and provides greater flexibility.",
+    "version":"2.4.0",
+    "dependencies":{
+        "com.unity.test-framework":"1.4.5","com.unity.modules.assetbundle":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.scriptablebuildpipeline@2.4/manual/index.html"
+}
+,
+"com.unity.scripting.python":{
+    "name":"com.unity.scripting.python",
+    "displayName":"Python Scripting",
+    "description":"Optimize Unity Editor workflows for your VFX/animation pipelines using Python scripting:\n- Automate repetitive tasks to speed up your artistic process.\n- Integrate your custom pipeline tools within Unity.\n- Increase interoperability with other software of your pipeline.\nThis package includes and uses Python 3.10.6 and Python for .NET 3.0.0.0 and is Editor-only (not available in runtime builds).",
+    "version":"7.0.2",
+    "dependencies":{
+        
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.scripting.python@7.0/manual/index.html"
+}
+,
+"com.unity.sentis":{
+    "name":"com.unity.sentis",
+    "displayName":"Sentis",
+    "description":"Sentis is a neural network inference library. It enables you to import trained neural network models, connect the network inputs and outputs to your game code, and then run them locally in your end-user app. Use cases include capabilities like natural language processing, object recognition, automated game opponents, sensor data classification, and many more.\n\nSentis automatically optimizes your network for real-time use to speed up inference. It also allows you to tune your implementation further with tools like frame slicing, quantization, and custom backend (i.e. compute type) dispatching.\n\nVisit https://unity.com/sentis for more resources.",
+    "version":"2.1.3",
+    "dependencies":{
+        "com.unity.burst":"1.8.17","com.unity.collections":"2.4.3","com.unity.modules.imageconversion":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.sentis@2.1/manual/index.html"
+}
+,
+"com.unity.sequences":{
+    "name":"com.unity.sequences",
+    "displayName":"Sequences",
+    "description":"Efficiently create movies, game cinematics or any other linear content.\nOrganize your project's editorial structure and your creative content, assemble the elements for easy authoring and collaboration, and try out new ideas in a non-destructive way.",
+    "version":"2.1.3",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0","com.unity.recorder":"2.5.5","com.unity.timeline":"1.6.3","com.unity.settings-manager":"1.0.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.sequences@2.1/manual/index.html"
+}
+,
+"com.unity.services.analytics":{
+    "name":"com.unity.services.analytics",
+    "displayName":"Analytics",
+    "description":"The Unity Analytics package automatically collects core events and user properties when someone uses your game or application, and enables you to track specific in-game actions your user performs by defining custom events. The data collected from this package is surfaced in the Unity dashboard where you can use it to gather user insights, segment your player base and make informed decisions around the optimization of your game.",
+    "version":"6.0.3",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.12.4","com.unity.modules.jsonserialize":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.analytics@6.0/manual/index.html"
+}
+,
+"com.unity.services.apis":{
+    "name":"com.unity.services.apis",
+    "displayName":"Cloud Services Apis",
+    "description":"Provides low-level access to Unity Cloud Apis. Includes admin and client apis.",
+    "version":"1.1.0",
+    "dependencies":{
+        "com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.apis@1.1/manual/index.html"
+}
+,
+"com.unity.services.authentication":{
+    "name":"com.unity.services.authentication",
+    "displayName":"Authentication",
+    "description":"Client SDK offering player identity management for Unity Gaming Services.\n\nIdentity providers can be configured from the editor or the Unity Dashboard.\n\nPlayer management is available in the Unity Dashboard.",
+    "version":"3.4.1",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.14.0","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.authentication@3.4/manual/index.html"
+}
+,
+"com.unity.services.ccd.management":{
+    "name":"com.unity.services.ccd.management",
+    "displayName":"CCD Management",
+    "description":"Cloud Content Delivery (CCD) is a managed cloud service that hosts and delivers live content to your application's users worldwide. Note: The Addressables package (1.19.6+) contains features that utilize this SDK to manage CCD.",
+    "version":"3.0.2",
+    "dependencies":{
+        "com.unity.services.core":"1.10.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0","com.unity.modules.unitywebrequestwww":"1.0.0","com.unity.modules.unitywebrequestaudio":"1.0.0","com.unity.modules.unitywebrequesttexture":"1.0.0","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.ccd.management@3.0/manual/index.html"
+}
+,
+"com.unity.services.cloud-build":{
+    "name":"com.unity.services.cloud-build",
+    "displayName":"Build Automation",
+    "description":"Integrate with Unity Build Automation \n\nThis package provides services to build and distribute your applications.",
+    "version":"1.0.5",
+    "dependencies":{
+        "com.unity.services.core":"1.7.0","com.unity.nuget.newtonsoft-json":"3.0.2"
+    },
+    "documentation":""
+}
+,
+"com.unity.services.cloud-diagnostics":{
+    "name":"com.unity.services.cloud-diagnostics",
+    "displayName":"Cloud Diagnostics",
+    "description":"This package is a suite of cloud enabled tools that help you collect and identify issues that users encounter with your apps.",
+    "version":"1.0.10",
+    "dependencies":{
+        "com.unity.services.core":"1.12.5"
+    },
+    "documentation":""
+}
+,
+"com.unity.services.cloudcode":{
+    "name":"com.unity.services.cloudcode",
+    "displayName":"Cloud Code",
+    "description":"Run your game logic in the cloud as serverless functions and interact with other backend services.\n\nThis package allows you to call out to Cloud Code from within your project as a secure player.\n\nCloud Code can be used to: \n-Change game logic for all players without re-distributing your game \n-Grant timed rewards \n-Create randomized values",
+    "version":"2.9.0",
+    "dependencies":{
+        "com.unity.services.core":"1.13.0","com.unity.services.wire":"1.2.3","com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.3.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.cloudcode@2.9/manual/index.html"
+}
+,
+"com.unity.services.cloudsave":{
+    "name":"com.unity.services.cloudsave",
+    "displayName":"Cloud Save",
+    "description":"Build better player experiences with seamless game data stored securely in the cloud.\n\nUse Cloud Save to store your players’ progress and preferences, by doing so you can share this data between all the players’ devices and any game backend services.",
+    "version":"3.2.2",
+    "dependencies":{
+        "com.unity.services.core":"1.12.5","com.unity.services.authentication":"3.3.1"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.cloudsave@3.2/manual/index.html"
+}
+,
+"com.unity.services.deployment":{
+    "name":"com.unity.services.deployment",
+    "displayName":"Deployment",
+    "description":"The Deployment package allows for a cohesive interface for the deployment of assets and configurations for UGS services.\n\nIt is not used on its own as UGS services will integrate with it.\nIt provides the base tooling, such as the Deployment Window, so that UGS services have shared functionality surrounding the deployment of the service's configuration files.",
+    "version":"1.4.1",
+    "dependencies":{
+        "com.unity.services.core":"1.12.0","com.unity.services.deployment.api":"1.1.2"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.deployment@1.4/manual/index.html"
+}
+,
+"com.unity.services.economy":{
+    "name":"com.unity.services.economy",
+    "displayName":"Economy",
+    "description":"Economy is a cloud service that enables game developers to create their in-game economy and gives them seamless purchases, currency conversion, player inventory management, and more. By using Economy, you have the power to integrate a fully-featured marketplace into your game, and manage it through a streamlined dashboard. \n\nEconomy can be configured through the Unity Dashboard. This package allows you to interact with your Economy configuration, player’s balances, inventories and purchases.",
+    "version":"3.5.1",
+    "dependencies":{
+        "com.unity.services.core":"1.13.0","com.unity.services.authentication":"3.3.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.economy@3.5/manual/index.html"
+}
+,
+"com.unity.services.friends":{
+    "name":"com.unity.services.friends",
+    "displayName":"Friends",
+    "description":"The Friends service allows you to boost player engagement by providing players with a social system that works well with other Unity services. With Friends, your players can send and receive friend requests, build and manage friends lists, and block and unblock other players.",
+    "version":"1.1.0",
+    "dependencies":{
+        "com.unity.services.core":"1.12.5","com.unity.services.wire":"1.2.6","com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"2.7.4","com.unity.modules.unitywebrequestwww":"1.0.0","com.unity.modules.unitywebrequestaudio":"1.0.0","com.unity.modules.unitywebrequesttexture":"1.0.0","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.services.leaderboards":{
+    "name":"com.unity.services.leaderboards",
+    "displayName":"Leaderboards",
+    "description":"Add socio-competitive elements to your game by allowing users to compete on leaderboards. Use the Leaderboards service to store, sort, and rank player scores powered by Unity Gaming Services.",
+    "version":"2.2.1",
+    "dependencies":{
+        "com.unity.services.core":"1.13.0","com.unity.services.authentication":"3.3.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.leaderboards@2.2/manual/index.html"
+}
+,
+"com.unity.services.levelplay":{
+    "name":"com.unity.services.levelplay",
+    "displayName":"Ads Mediation",
+    "description":"After you've installed the Ads Mediation package, create a LevelPlay account and complete your app's ad format integrations if you haven't done so already. Here are the next steps: https://developers.is.com/ironsource-mobile/unity/levelplay-starter-kit/\n\nIMPORTANT UPGRADE NOTES: \n\nBefore updating from Ads Mediation v1.0.0 (or levelplay.unitypackage) to Ads Mediation v8.0.0+, complete the following actions to migrate smoothly:\n\nPlease note: if you are using Developer Settings, you will need to back up your values and re-enter them once you have updated to the latest version of the SDK.\n\n1. In your Project window, locate the Assets/IronSource folder. Delete the IronSource folder and its contents.\n2. Return to the Ads Mediation package in Package Manager and click Update.\n3. Launch the LevelPlay Network Manager from the Ads Mediation top menu and reinstall network adapters.\n\nFor more information:\n\n▪ Migration guide: https://developers.is.com/ironsource-mobile/unity/unity-package-migration-8-0-0/\n▪ Troubleshooting steps: https://docs.unity.com/monetization-dashboard/en-us/manual/editor-levelplay-integration#Troubleshooting\n\nPACKAGE DESCRIPTION:\n\nDrive higher revenue with the leading ads mediation platform from Unity. LevelPlay gives you access to a unified auction of all the leading SDK networks and bidders to maximize competition and increase your potential earnings. Serve a diverse mix of ad formats, get real time monetization data, A/B test adjustments to your ad strategy, and more. \n\nSupported platforms:\n\n▪ Android\n▪ iOS",
+    "version":"8.8.1",
+    "dependencies":{
+        "com.unity.services.core":"1.8.1"
+    },
+    "documentation":"https://developers.is.com/ironsource-mobile/unity/levelplay-starter-kit/"
+}
+,
+"com.unity.services.lobby":{
+    "name":"com.unity.services.lobby",
+    "displayName":"Lobby",
+    "description":"Enable players to find, create, and join lobbies with Lobby. Add Lobby to your multiplayer game to empower players to create the gaming experiences they want. Features include Quick Join, Public Lobby, and Private Match to allow flexibility in how players want to game with each other.",
+    "version":"1.3.0",
+    "dependencies":{
+        "com.unity.services.core":"1.12.5","com.unity.services.wire":"1.2.6","com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"2.7.4","com.unity.modules.unitywebrequestwww":"1.0.0","com.unity.modules.unitywebrequestaudio":"1.0.0","com.unity.modules.unitywebrequesttexture":"1.0.0","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.lobby@1.3/manual/index.html"
+}
+,
+"com.unity.services.matchmaker":{
+    "name":"com.unity.services.matchmaker",
+    "displayName":"Matchmaker",
+    "description":"Unity Matchmaker is part of Unity's growing suite of multiplayer services that are designed to help you create and operate multiplayer games no matter what engine you're using.",
+    "version":"1.2.0",
+    "dependencies":{
+        "com.unity.services.core":"1.12.5","com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"2.7.4","com.unity.modules.unitywebrequestwww":"1.0.0","com.unity.modules.unitywebrequestaudio":"1.0.0","com.unity.modules.unitywebrequesttexture":"1.0.0","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.matchmaker@1.2/manual/index.html"
+}
+,
+"com.unity.services.moderation":{
+    "name":"com.unity.services.moderation",
+    "displayName":"Moderation",
+    "description":"Unity Moderation makes toxicity-management accessible, impactful, and insightful. The service providing developers with the tools they need to grow and maintain healthy communities within their games.",
+    "version":"1.1.0",
+    "dependencies":{
+        "com.unity.services.core":"1.11.0","com.unity.nuget.newtonsoft-json":"3.2.1"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.moderation@1.1/manual/index.html"
+}
+,
+"com.unity.services.multiplay":{
+    "name":"com.unity.services.multiplay",
+    "displayName":"Multiplay",
+    "description":"The Multiplay SDK provides functionality to facilitate Multiplay services.",
+    "version":"1.3.0",
+    "dependencies":{
+        "com.unity.services.core":"1.12.5","com.unity.services.wire":"1.2.5","com.unity.modules.jsonserialize":"1.0.0","com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.modules.unitywebrequestwww":"1.0.0","com.unity.modules.unitywebrequestaudio":"1.0.0","com.unity.modules.unitywebrequesttexture":"1.0.0","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.multiplay@1.3/manual/index.html"
+}
+,
+"com.unity.services.multiplayer":{
+    "name":"com.unity.services.multiplayer",
+    "displayName":"Multiplayer Services",
+    "description":"The Multiplayer Services package is a one-stop solution for adding multiplayer elements to a game developed in Unity. The Unity Gaming Services (UGS) Multiplayer services powers these capabilities to define how groups of players interact in your games.",
+    "version":"1.1.3",
+    "dependencies":{
+        "com.unity.transport":"2.2.1","com.unity.collections":"2.2.1","com.unity.services.qos":"1.3.0","com.unity.services.core":"1.13.0","com.unity.services.wire":"1.2.7","com.unity.services.deployment":"1.3.0","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.3.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.multiplayer@1.1/manual/index.html"
+}
+,
+"com.unity.services.playeraccounts":{
+    "name":"com.unity.services.playeraccounts",
+    "displayName":"Player Accounts",
+    "description":"The Player Accounts package: \n Provides functionality to integrate Unity Player Accounts with Unity Gaming Services.",
+    "version":"1.0.0-pre.2",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.10.1","com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.playeraccounts@1.0/manual/index.html"
+}
+,
+"com.unity.services.push-notifications":{
+    "name":"com.unity.services.push-notifications",
+    "displayName":"Push Notifications",
+    "description":"This package adds support for Push Notifications to your game. It allows sending rich push notifications with images, and provides analytics on the number of received push notifications.",
+    "version":"4.0.1",
+    "dependencies":{
+        "com.unity.services.core":"1.10.1","com.unity.services.analytics":"6.0.1","com.unity.mobile.notifications":"2.2.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.push-notifications@4.0/manual/index.html"
+}
+,
+"com.unity.services.relay":{
+    "name":"com.unity.services.relay",
+    "displayName":"Relay",
+    "description":"Connect the players of your peer-hosted games with Relay. Your games will also benefit from improved reliability, privacy and the ability to communicate across platforms. To get started, enable listen-server UDP networking for your project on the Unity Dashboard.\n\nFeatures include an allocation service to join game hosts via code, multi-region support, and more.",
+    "version":"1.2.0",
+    "dependencies":{
+        "com.unity.transport":"1.3.0","com.unity.services.qos":"1.3.2","com.unity.services.core":"1.12.5","com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"2.7.4","com.unity.modules.unitywebrequestwww":"1.0.0","com.unity.modules.unitywebrequestaudio":"1.0.0","com.unity.modules.unitywebrequesttexture":"1.0.0","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.relay@1.2/manual/index.html"
+}
+,
+"com.unity.services.tooling":{
+    "name":"com.unity.services.tooling",
+    "displayName":"Services Tooling",
+    "description":"The tooling package provides deep editor integrations such as Config as Code for Unity Cloud services that don't have or need to have their own package.\n\nCurrently supported services:\n- Access Control",
+    "version":"1.3.0",
+    "dependencies":{
+        "com.unity.services.core":"1.13.0","com.unity.services.deployment":"1.4.1","com.unity.services.authentication":"3.3.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.tooling@1.3/manual/index.html"
+}
+,
+"com.unity.services.ugc":{
+    "name":"com.unity.services.ugc",
+    "displayName":"User Generated Content",
+    "description":"The Unity User Generated Content package provides content management, moderation, and discovery features.",
+    "version":"3.0.1",
+    "dependencies":{
+        "com.unity.services.core":"1.12.5","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.services.authentication":"3.3.1"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.ugc@3.0/manual/index.html"
+}
+,
+"com.unity.services.ugc.bridge":{
+    "name":"com.unity.services.ugc.bridge",
+    "displayName":"User Generated Content Bridge",
+    "description":"The User-Generated Content (UGC) Bridge is a Unity package allowing users to upload UGC for a specific game from the Unity editor. It is a template Unity package provided to game studios developing UGC games, so they can modify it to suit their needs and designs, but functional by default without changing anything.\n\n The UGC Bridge aims to reduce the friction of the UGC integration in a game, leveraging the Unity editor itself as the base of the UGC editor, therefore also reducing the engineering cost of such integration.",
+    "version":"3.0.0",
+    "dependencies":{
+        "com.unity.services.core":"1.8.1","com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.services.authentication":"3.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.ugc.bridge@3.0/manual/index.html"
+}
+,
+"com.unity.services.user-reporting":{
+    "name":"com.unity.services.user-reporting",
+    "displayName":"User Reporting",
+    "description":"This package is a SDK toolset that helps you collect and identify issues that users or testers encounter with your apps.",
+    "version":"2.0.11",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0","com.unity.modules.ui":"1.0.0","com.unity.modules.xr":"1.0.0","com.unity.services.core":"1.12.5","com.unity.modules.screencapture":"1.0.0","com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.modules.unitywebrequesttexture":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.services.vivox":{
+    "name":"com.unity.services.vivox",
+    "displayName":"Vivox",
+    "description":"Unity's voice and text chat service for multiplayer communication offers voice chat and direct message text service with a managed hosted solution. Plug into your game and configure your project settings to add communications to your project immediately. Connect an unlimited number of users in 2D and 3D channels. Monitor concurrency on your dashboard. Add a custom UI to allow players to control voice volume, mute, and add audio effects to voice channels and manage them. Place users in team chat and allow them to participate in multiple channels.",
+    "version":"16.6.0",
+    "dependencies":{
+        "com.unity.modules.audio":"1.0.0","com.unity.services.core":"1.12.5","com.unity.settings-manager":"1.0.3","com.unity.nuget.newtonsoft-json":"3.0.2"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.vivox@16.6/manual/index.html"
+}
+,
+"com.unity.shadergraph":{
+    "name":"com.unity.shadergraph",
+    "displayName":"Shader Graph",
+    "description":"The Shader Graph package adds a visual Shader editing tool to Unity. You can use this tool to create Shaders in a visual way instead of writing code. Specific render pipelines can implement specific graph features. Currently, both the High Definition Rendering Pipeline and the Universal Rendering Pipeline support Shader Graph.",
+    "version":"17.0.4",
+    "dependencies":{
+        "com.unity.render-pipelines.core":"17.0.4","com.unity.searcher":"4.9.3"
+    },
+    "documentation":""
+}
+,
+"com.unity.sharp-zip-lib":{
+    "name":"com.unity.sharp-zip-lib",
+    "displayName":"SharpZipLib",
+    "description":"A package that wraps SharpZipLib (https://github.com/icsharpcode/SharpZipLib) to be used inside Unity",
+    "version":"1.3.9",
+    "dependencies":{
+        
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.sharp-zip-lib@1.3/manual/index.html"
+}
+,
+"com.unity.splines":{
+    "name":"com.unity.splines",
+    "displayName":"Splines",
+    "description":"Work with curves and paths. Use the Splines package to generate objects and behaviors along paths, create trajectories, and draw shapes.",
+    "version":"2.8.1",
+    "dependencies":{
+        "com.unity.mathematics":"1.2.1","com.unity.modules.imgui":"1.0.0","com.unity.settings-manager":"1.0.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html"
+}
+,
+"com.unity.sysroot":{
+    "name":"com.unity.sysroot",
+    "displayName":"Sysroot Base",
+    "description":"This is the base sysroot package required by all sysroot and toolchain packages",
+    "version":"2.0.10",
+    "dependencies":{
+        
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.sysroot@2.0/manual/index.html"
+}
+,
+"com.unity.sysroot.linux-x86_64":{
+    "name":"com.unity.sysroot.linux-x86_64",
+    "displayName":"Sysroot Linux x64",
+    "description":"Sysroot used to build unity player for linux x86_64",
+    "version":"2.0.9",
+    "dependencies":{
+        "com.unity.sysroot":"2.0.10"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.sysroot.linux-x86_64@2.0/manual/index.html"
+}
+,
+"com.unity.terrain-tools":{
+    "name":"com.unity.terrain-tools",
+    "displayName":"Terrain Tools",
+    "description":"The Terrain Tools package adds additional Terrain sculpting brushes and tools to Unity. This add-on toolset is suitable if you require more control over the appearance of your Terrain, and want to streamline Terrain workflows. It’s also useful when you want to make more complex-looking Terrain, or author Terrain Texture data in external digital content creation tools.",
+    "version":"5.2.1",
+    "dependencies":{
+        "com.unity.modules.terrain":"1.0.0","com.unity.modules.terrainphysics":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.terrain-tools@5.2/manual/index.html"
+}
+,
+"com.unity.test-framework":{
+    "name":"com.unity.test-framework",
+    "displayName":"Test Framework",
+    "description":"Test framework for running Edit mode and Play mode tests in Unity.",
+    "version":"1.5.1",
+    "dependencies":{
+        "com.unity.ext.nunit":"2.0.3","com.unity.modules.imgui":"1.0.0","com.unity.modules.jsonserialize":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.test-framework.performance":{
+    "name":"com.unity.test-framework.performance",
+    "displayName":"Performance testing API",
+    "description":"Package that extends Unity Test Framework package. Adds performance testing capabilities and collects configuration metadata.",
+    "version":"3.1.0",
+    "dependencies":{
+        "com.unity.test-framework":"1.1.33","com.unity.modules.jsonserialize":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.1/manual/index.html"
+}
+,
+"com.unity.testtools.codecoverage":{
+    "name":"com.unity.testtools.codecoverage",
+    "displayName":"Code Coverage",
+    "description":"Use this package to export code coverage data and reports from your automated tests. Additionally, the Code Coverage package offers a Coverage Recording feature which allows capturing coverage data on demand, for manual testing or when there are no automated tests in the project.",
+    "version":"1.2.6",
+    "dependencies":{
+        "com.unity.test-framework":"1.0.16","com.unity.settings-manager":"1.0.1"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html"
+}
+,
+"com.unity.timeline":{
+    "name":"com.unity.timeline",
+    "displayName":"Timeline",
+    "description":"Use Unity Timeline to create cinematic content, game-play sequences, audio sequences, and complex particle effects.",
+    "version":"1.8.8",
+    "dependencies":{
+        "com.unity.modules.audio":"1.0.0","com.unity.modules.director":"1.0.0","com.unity.modules.animation":"1.0.0","com.unity.modules.particlesystem":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.timeline@1.8/manual/index.html"
+}
+,
+"com.unity.toolchain.linux-x86_64":{
+    "name":"com.unity.toolchain.linux-x86_64",
+    "displayName":"Toolchain Linux x64",
+    "description":"Toolchain to build player target Linux x86_64 on host Linux x86_64",
+    "version":"2.0.10",
+    "dependencies":{
+        "com.unity.sysroot":"2.0.10","com.unity.sysroot.linux-x86_64":"2.0.9"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.toolchain.linux-x86_64@2.0/manual/index.html"
+}
+,
+"com.unity.toolchain.macos-arm64-linux-x86_64":{
+    "name":"com.unity.toolchain.macos-arm64-linux-x86_64",
+    "displayName":"Toolchain MacOS Arm64 Linux x64",
+    "description":"Cross-compilation toolchain to build player target Linux x86_64 on host Darwin Arm64",
+    "version":"2.0.4",
+    "dependencies":{
+        "com.unity.sysroot":"2.0.10","com.unity.sysroot.linux-x86_64":"2.0.9"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.toolchain.macos-arm64-linux-x86_64@2.0/manual/index.html"
+}
+,
+"com.unity.toolchain.macos-x86_64-linux-x86_64":{
+    "name":"com.unity.toolchain.macos-x86_64-linux-x86_64",
+    "displayName":"Toolchain MacOS Linux x64",
+    "description":"Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
+    "version":"2.0.10",
+    "dependencies":{
+        "com.unity.sysroot":"2.0.10","com.unity.sysroot.linux-x86_64":"2.0.9"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.toolchain.macos-x86_64-linux-x86_64@2.0/manual/index.html"
+}
+,
+"com.unity.toolchain.win-arm64-linux-x86_64":{
+    "name":"com.unity.toolchain.win-arm64-linux-x86_64",
+    "displayName":"Toolchain WinArm64 Linux x64",
+    "description":"Cross-compilation toolchain to build player target Linux x86_64 on host Windows Arm64",
+    "version":"1.0.4",
+    "dependencies":{
+        "com.unity.sysroot":"2.0.10","com.unity.sysroot.linux-x86_64":"2.0.9"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.toolchain.win-arm64-linux-x86_64@1.0/manual/index.html"
+}
+,
+"com.unity.toolchain.win-x86_64-linux-x86_64":{
+    "name":"com.unity.toolchain.win-x86_64-linux-x86_64",
+    "displayName":"Toolchain Win Linux x64",
+    "description":"Cross-compilation toolchain to build player target Linux x86_64 on host Windows x86_64",
+    "version":"2.0.10",
+    "dependencies":{
+        "com.unity.sysroot":"2.0.10","com.unity.sysroot.linux-x86_64":"2.0.9"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.toolchain.win-x86_64-linux-x86_64@2.0/manual/index.html"
+}
+,
+"com.unity.transport":{
+    "name":"com.unity.transport",
+    "displayName":"Unity Transport",
+    "description":"Unity network transport layer - the low-level interface for connecting and sending data through a network",
+    "version":"2.5.1",
+    "dependencies":{
+        "com.unity.burst":"1.8.12","com.unity.collections":"2.2.1","com.unity.mathematics":"1.3.1"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.transport@2.5/manual/index.html"
+}
+,
+"com.unity.ugui":{
+    "name":"com.unity.ugui",
+    "displayName":"Unity UI",
+    "description":"Unity UI is a set of tools for developing user interfaces for games and applications. It is a GameObject-based UI system that uses Components and the Game View to arrange, position, and style user interfaces. ​ You cannot use Unity UI to create or change user interfaces in the Unity Editor.",
+    "version":"2.0.0",
+    "dependencies":{
+        "com.unity.modules.ui":"1.0.0","com.unity.modules.imgui":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.visualeffectgraph":{
+    "name":"com.unity.visualeffectgraph",
+    "displayName":"Visual Effect Graph",
+    "description":"The Visual Effect Graph is a node based visual effect editor. It allows you to author next generation visual effects that Unity simulates directly on the GPU. The Visual Effect Graph is production-ready for the High Definition Render Pipeline and runs on all platforms supported by it. Full support for the Universal Render Pipeline and compatible mobile devices is still in development.",
+    "version":"17.0.4",
+    "dependencies":{
+        "com.unity.shadergraph":"17.0.4","com.unity.render-pipelines.core":"17.0.4"
+    },
+    "documentation":""
+}
+,
+"com.unity.visualscripting":{
+    "name":"com.unity.visualscripting",
+    "displayName":"Visual Scripting",
+    "description":"Visual scripting is a workflow that uses visual, node-based graphs to design behaviors rather than write lines of C# script.\n\nEnabling artists, designers and programmers alike, visual scripting can be used to design final logic, quickly create prototypes, iterate on gameplay and create custom nodes to help streamline collaboration.\n\nVisual scripting is compatible with third-party APIs, including most packages, assets and custom libraries.",
+    "version":"1.9.7",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0","com.unity.modules.jsonserialize":"1.0.0"
+    },
+    "documentation":""
+}
+,
+"com.unity.xr.arcore":{
+    "name":"com.unity.xr.arcore",
+    "displayName":"Google ARCore XR Plugin",
+    "description":"Provides native Google ARCore integration for use with Unity's multi-platform XR API.\nSupports the following features:\n-Efficient Background Rendering\n-Horizontal Planes\n-Depth Data\n-Anchors\n-Hit Testing\n-Occlusion",
+    "version":"6.1.0",
+    "dependencies":{
+        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.1.0","com.unity.modules.androidjni":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arcore@6.1/manual/index.html"
+}
+,
+"com.unity.xr.arfoundation":{
+    "name":"com.unity.xr.arfoundation",
+    "displayName":"AR Foundation",
+    "description":"AR Foundation enables you to create multi-platform augmented reality (AR) apps with Unity. To learn more about AR Foundation, click the Documentation link above.",
+    "version":"6.1.0",
+    "dependencies":{
+        "com.unity.ugui":"2.0.0","com.unity.modules.ui":"1.0.0","com.unity.inputsystem":"1.6.3","com.unity.mathematics":"1.2.6","com.unity.xr.core-utils":"2.5.1","com.unity.xr.management":"4.4.0","com.unity.editorcoroutines":"1.0.0","com.unity.modules.particlesystem":"1.0.0","com.unity.modules.unityanalytics":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html"
+}
+,
+"com.unity.xr.arkit":{
+    "name":"com.unity.xr.arkit",
+    "displayName":"Apple ARKit XR Plugin",
+    "description":"Provides native Apple ARKit integration for use with Unity's multi-platform XR API.\nSupports the following features:\n-Efficient Background Rendering\n-Horizontal Planes\n-Depth Data\n-Anchors\n-Hit Testing\n-Face Tracking\n-Environment Probes\n-Meshing\n-Occlusion\n\n* Apple and ARKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
+    "version":"6.1.0",
+    "dependencies":{
+        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.1.0","com.unity.editorcoroutines":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arkit@6.1/manual/index.html"
+}
+,
+"com.unity.xr.hands":{
+    "name":"com.unity.xr.hands",
+    "displayName":"XR Hands",
+    "description":"Surfaces the cross-platform subsystem API for hand-tracking. Implementations of providers will be found in the package for that platform.",
+    "version":"1.5.1",
+    "dependencies":{
+        "com.unity.modules.xr":"1.0.0","com.unity.inputsystem":"1.3.0","com.unity.mathematics":"1.2.6","com.unity.xr.core-utils":"2.2.0","com.unity.xr.management":"4.0.1"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.hands@1.5/manual/index.html"
+}
+,
+"com.unity.xr.interaction.toolkit":{
+    "name":"com.unity.xr.interaction.toolkit",
+    "displayName":"XR Interaction Toolkit",
+    "description":"A high-level, component-based, interaction system for creating VR and AR experiences. It provides a framework that makes 3D and UI interactions available from Unity input events. The core of this system is a set of base Interactor and Interactable components, and an Interaction Manager that ties these two types of components together. It also contains components that you can use for locomotion and drawing visuals.",
+    "version":"3.1.2",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0","com.unity.modules.xr":"1.0.0","com.unity.inputsystem":"1.8.1","com.unity.mathematics":"1.2.6","com.unity.modules.audio":"1.0.0","com.unity.modules.imgui":"1.0.0","com.unity.xr.core-utils":"2.4.0","com.unity.modules.physics":"1.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.1/manual/index.html"
+}
+,
+"com.unity.xr.magicleap":{
+    "name":"com.unity.xr.magicleap",
+    "displayName":"Magic Leap XR Plugin",
+    "description":"Provides rendering and spatial mapping support for Magic Leap 2.\n\nThis package will be deprecated after Unity 6.\n(See Documentation for more detailed information.)",
+    "version":"7.1.2",
+    "dependencies":{
+        "com.unity.ugui":"1.0.0","com.unity.modules.vr":"1.0.0","com.unity.modules.xr":"1.0.0","com.unity.xr.management":"4.2.0","com.unity.xr.arfoundation":"5.0.0-pre.12","com.unity.modules.androidjni":"1.0.0","com.unity.modules.screencapture":"1.0.0","com.unity.xr.interactionsubsystems":"2.0.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.magicleap@7.1/manual/index.html"
+}
+,
+"com.unity.xr.management":{
+    "name":"com.unity.xr.management",
+    "displayName":"XR Plugin Management",
+    "description":"Package that provides simple management of XR plug-ins. Manages and offers help with loading, initialization, settings, and build support for XR plug-ins.",
+    "version":"4.5.1",
+    "dependencies":{
+        "com.unity.modules.vr":"1.0.0","com.unity.modules.xr":"1.0.0","com.unity.xr.core-utils":"2.2.1","com.unity.modules.subsystems":"1.0.0","com.unity.xr.legacyinputhelpers":"2.1.11"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.management@4.5/manual/index.html"
+}
+,
+"com.unity.xr.meta-openxr":{
+    "name":"com.unity.xr.meta-openxr",
+    "displayName":"Unity OpenXR Meta",
+    "description":"Enables you to build mixed reality apps for Meta Quest devices by implementing support for Meta's OpenXR extensions.",
+    "version":"2.1.1",
+    "dependencies":{
+        "com.unity.xr.openxr":"1.14.0","com.unity.xr.core-utils":"2.5.1","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.1.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@2.1/manual/index.html"
+}
+,
+"com.unity.xr.oculus":{
+    "name":"com.unity.xr.oculus",
+    "displayName":"Oculus XR Plugin",
+    "description":"Provides display and input support for Oculus devices.",
+    "version":"4.5.1",
+    "dependencies":{
+        "com.unity.xr.management":"4.4.0"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.5/manual/index.html"
+}
+,
+"com.unity.xr.openxr":{
+    "name":"com.unity.xr.openxr",
+    "displayName":"OpenXR Plugin",
+    "description":"OpenXR is an open, royalty-free standard developed by Khronos that aims to simplify AR/VR development by allowing developers to target a wide range of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.",
+    "version":"1.14.3",
+    "dependencies":{
+        "com.unity.inputsystem":"1.6.3","com.unity.xr.core-utils":"2.3.0","com.unity.xr.management":"4.4.0","com.unity.xr.legacyinputhelpers":"2.1.2"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.14/manual/index.html"
+}
+,
+"com.unity.xr.visionos":{
+    "name":"com.unity.xr.visionos",
+    "displayName":"Apple visionOS XR Plugin",
+    "description":"Provides support for Apple visionOS XR features. This includes build post-processing code and the following subsystem implementations:\n  - XRSessionSubsystem\n  - XRDisplaySubsystem\n  - XRInputSubsystem\n  - XRMeshSubsystem\n  - XRPlaneSubsystem\n  - XRImageTrackingSubsystem\n  - XRAnchorSubsystem\n  - XRHandSubsystem\nUnity PolySpatial and visionOS support is only available to Unity Pro, Unity Enterprise, and Unity Industry users. Learn more about these plans at unity.com/pricing.",
+    "version":"2.2.4",
+    "dependencies":{
+        "com.unity.xr.core-utils":"2.3.0","com.unity.xr.management":"4.5.0","com.unity.xr.arfoundation":"6.0.3"
+    },
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.visionos@2.2/manual/index.html"
+}
+}}
