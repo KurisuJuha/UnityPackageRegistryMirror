@@ -1,0 +1,26 @@
+name: Build Unity Package Registry Index
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Unity
+        uses: game-ci/unity-actions@v2
+        with:
+          unityVersion: 6000.0.47f1
+          activateLicense: false
+
+      - name: Run Unity Editor Script to Output Registry JSON
+        run: |
+          xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
+          unity-editor \
+          -projectPath . \
+          -batchmode -nographics -quit \
+          -executeMethod PackageIndexer.Run
