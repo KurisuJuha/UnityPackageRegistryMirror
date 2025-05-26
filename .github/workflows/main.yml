@@ -13,14 +13,11 @@ jobs:
 
       - name: Setup Unity
         uses: game-ci/unity-builder@v4
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
           unityVersion: 6000.0.47f1
-          activateLicense: false
-
-      - name: Run Unity Editor Script to Output Registry JSON
-        run: |
-          xvfb-run --auto-servernum --server-args='-screen 0 640x480x24' \
-          unity-editor \
-          -projectPath . \
-          -batchmode -nographics -quit \
-          -executeMethod PackageIndexer.Run
+          targetPlatform: StandaloneWindows64
+          buildMethod: PackageIndexer.Run
