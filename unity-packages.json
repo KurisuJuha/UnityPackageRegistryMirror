@@ -157,7 +157,7 @@
     "name":"com.unity.ai.navigation",
     "displayName":"AI Navigation",
     "description":"The AI Navigation package contains high-level components that allow you to use navmeshes to incorporate navigation and pathfinding in your game. With this package installed you can build and use navmeshes at runtime and at edit time, create dynamic obstacles, and use links to allow specific actions (like jumping) as your characters navigate between navmeshes.",
-    "version":"2.0.7",
+    "version":"2.0.8",
     "dependencies":{
         "com.unity.modules.ai":"1.0.0"
     },
@@ -179,11 +179,11 @@
     "name":"com.unity.asset-manager-for-unity",
     "displayName":"Asset Manager",
     "description":"Asset Manager for Unity is an In-Editor tool that allows you to easily browse, upload and import assets between the Unity Editor and Unity Cloud.",
-    "version":"1.4.0",
+    "version":"1.5.0",
     "dependencies":{
         "com.unity.modules.imgui":"1.0.0","com.unity.settings-manager":"2.0.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.asset-manager-for-unity@1.4/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.asset-manager-for-unity@1.5/manual/index.html"
 }
 ,
 "com.unity.behavior":{
