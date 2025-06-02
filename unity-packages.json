@@ -1059,11 +1059,11 @@
     "name":"com.unity.netcode",
     "displayName":"Netcode for Entities",
     "description":"Unity's Data Oriented Technology Stack (DOTS) multiplayer netcode layer - a high level netcode system built on entities. This package provides a foundation for creating networked multiplayer applications within DOTS.",
-    "version":"1.5.1",
+    "version":"1.6.1",
     "dependencies":{
         "com.unity.entities":"1.3.5","com.unity.transport":"2.4.0","com.unity.modules.animation":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode@1.5/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode@1.6/manual/index.html"
 }
 ,
 "com.unity.netcode.gameobjects":{
