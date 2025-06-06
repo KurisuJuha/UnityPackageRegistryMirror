@@ -179,7 +179,7 @@
     "name":"com.unity.asset-manager-for-unity",
     "displayName":"Asset Manager",
     "description":"Asset Manager for Unity is an In-Editor tool that allows you to easily browse, upload and import assets between the Unity Editor and Unity Cloud.",
-    "version":"1.5.0",
+    "version":"1.5.1",
     "dependencies":{
         "com.unity.modules.imgui":"1.0.0","com.unity.settings-manager":"2.0.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -1070,11 +1070,11 @@
     "name":"com.unity.netcode.gameobjects",
     "displayName":"Netcode for GameObjects",
     "description":"Netcode for GameObjects is a high-level netcode SDK that provides networking capabilities to GameObject/MonoBehaviour workflows within Unity and sits on top of underlying transport layer.",
-    "version":"2.3.2",
+    "version":"2.4.0",
     "dependencies":{
         "com.unity.transport":"2.4.0","com.unity.nuget.mono-cecil":"1.11.4"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.3/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.4/manual/index.html"
 }
 ,
 "com.unity.performance.profile-analyzer":{
