@@ -201,7 +201,7 @@
     "name":"com.unity.burst",
     "displayName":"Burst",
     "description":"Burst is a compiler that translates from IL/.NET bytecode to highly optimized native code using LLVM.",
-    "version":"1.8.21",
+    "version":"1.8.22",
     "dependencies":{
         "com.unity.mathematics":"1.2.1","com.unity.modules.jsonserialize":"1.0.0"
     },
