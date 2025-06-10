@@ -1598,11 +1598,11 @@
     "name":"com.unity.sharp-zip-lib",
     "displayName":"SharpZipLib",
     "description":"A package that wraps SharpZipLib (https://github.com/icsharpcode/SharpZipLib) to be used inside Unity",
-    "version":"1.3.9",
+    "version":"1.4.0",
     "dependencies":{
         
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.sharp-zip-lib@1.3/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.sharp-zip-lib@1.4/manual/index.html"
 }
 ,
 "com.unity.splines":{
@@ -1642,11 +1642,11 @@
     "name":"com.unity.terrain-tools",
     "displayName":"Terrain Tools",
     "description":"The Terrain Tools package adds additional Terrain sculpting brushes and tools to Unity. This add-on toolset is suitable if you require more control over the appearance of your Terrain, and want to streamline Terrain workflows. It’s also useful when you want to make more complex-looking Terrain, or author Terrain Texture data in external digital content creation tools.",
-    "version":"5.2.1",
+    "version":"5.3.0",
     "dependencies":{
         "com.unity.modules.terrain":"1.0.0","com.unity.modules.terrainphysics":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.terrain-tools@5.2/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.terrain-tools@5.3/manual/index.html"
 }
 ,
 "com.unity.test-framework":{
@@ -1796,9 +1796,9 @@
     "name":"com.unity.xr.arcore",
     "displayName":"Google ARCore XR Plugin",
     "description":"Provides native Google ARCore integration for use with Unity's multi-platform XR API.\nSupports the following features:\n-Efficient Background Rendering\n-Horizontal Planes\n-Depth Data\n-Anchors\n-Hit Testing\n-Occlusion",
-    "version":"6.1.0",
+    "version":"6.1.1",
     "dependencies":{
-        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.1.0","com.unity.modules.androidjni":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.1.1","com.unity.modules.androidjni":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arcore@6.1/manual/index.html"
 }
@@ -1807,7 +1807,7 @@
     "name":"com.unity.xr.arfoundation",
     "displayName":"AR Foundation",
     "description":"AR Foundation enables you to create multi-platform augmented reality (AR) apps with Unity. To learn more about AR Foundation, click the Documentation link above.",
-    "version":"6.1.0",
+    "version":"6.1.1",
     "dependencies":{
         "com.unity.ugui":"2.0.0","com.unity.modules.ui":"1.0.0","com.unity.inputsystem":"1.6.3","com.unity.mathematics":"1.2.6","com.unity.xr.core-utils":"2.5.1","com.unity.xr.management":"4.4.0","com.unity.editorcoroutines":"1.0.0","com.unity.modules.particlesystem":"1.0.0","com.unity.modules.unityanalytics":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -1818,9 +1818,9 @@
     "name":"com.unity.xr.arkit",
     "displayName":"Apple ARKit XR Plugin",
     "description":"Provides native Apple ARKit integration for use with Unity's multi-platform XR API.\nSupports the following features:\n-Efficient Background Rendering\n-Horizontal Planes\n-Depth Data\n-Anchors\n-Hit Testing\n-Face Tracking\n-Environment Probes\n-Meshing\n-Occlusion\n\n* Apple and ARKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
-    "version":"6.1.0",
+    "version":"6.1.1",
     "dependencies":{
-        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.1.0","com.unity.editorcoroutines":"1.0.0"
+        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.1.1","com.unity.editorcoroutines":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arkit@6.1/manual/index.html"
 }
