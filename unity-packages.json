@@ -190,7 +190,7 @@
     "name":"com.unity.behavior",
     "displayName":"Behavior",
     "description":"Unity Behavior is a graph-based tool to create and run behavior trees with a modular architecture.\n\n▪ Human-readable graphs flow top-to-bottom with plain-language nodes\n▪ Comprehensive library of pre-built nodes for movement, detection, and decision-making\n▪ Seamless C# integration with a familiar lifecycle model\n▪ Hierarchical design supporting reusable subgraphs\n▪ Real-time debugging visualization during Play mode\n▪ Event-driven architecture for dynamic game reactions\n\nIdeal for NPC behaviors, quest logic, environmental interactions, and game state management.\n\nA demo showcasing this package can be found in the Asset Store <a href=https://assetstore.unity.com/packages/templates/tutorials/behavior-demo-for-unity-298313>https://assetstore.unity.com/packages/templates/tutorials/behavior-demo-for-unity-298313</a>.",
-    "version":"1.0.10",
+    "version":"1.0.11",
     "dependencies":{
         "com.unity.burst":"1.7.2","com.unity.dt.app-ui":"2.0.0-pre.16","com.unity.modules.ai":"1.0.0","com.unity.collections":"2.1.4","com.unity.modules.audio":"1.0.0","com.unity.modules.animation":"1.0.0","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.particlesystem":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -1785,7 +1785,7 @@
     "name":"com.unity.visualscripting",
     "displayName":"Visual Scripting",
     "description":"Visual scripting is a workflow that uses visual, node-based graphs to design behaviors rather than write lines of C# script.\n\nEnabling artists, designers and programmers alike, visual scripting can be used to design final logic, quickly create prototypes, iterate on gameplay and create custom nodes to help streamline collaboration.\n\nVisual scripting is compatible with third-party APIs, including most packages, assets and custom libraries.",
-    "version":"1.9.7",
+    "version":"1.9.8",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.modules.jsonserialize":"1.0.0"
     },
