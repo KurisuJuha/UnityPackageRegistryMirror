@@ -1136,11 +1136,11 @@
     "name":"com.unity.postprocessing",
     "displayName":"Post Processing",
     "description":"The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
-    "version":"3.4.0",
+    "version":"3.5.0",
     "dependencies":{
         "com.unity.modules.physics":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.postprocessing@3.4/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.postprocessing@3.5/manual/index.html"
 }
 ,
 "com.unity.probuilder":{
@@ -1576,7 +1576,7 @@
     "name":"com.unity.services.vivox",
     "displayName":"Vivox",
     "description":"Unity's voice and text chat service for multiplayer communication offers voice chat and direct message text service with a managed hosted solution. Plug into your game and configure your project settings to add communications to your project immediately. Connect an unlimited number of users in 2D and 3D channels. Monitor concurrency on your dashboard. Add a custom UI to allow players to control voice volume, mute, and add audio effects to voice channels and manage them. Place users in team chat and allow them to participate in multiple channels.",
-    "version":"16.6.0",
+    "version":"16.6.2",
     "dependencies":{
         "com.unity.modules.audio":"1.0.0","com.unity.services.core":"1.12.5","com.unity.settings-manager":"1.0.3","com.unity.nuget.newtonsoft-json":"3.0.2"
     },
