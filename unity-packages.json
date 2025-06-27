@@ -1301,11 +1301,11 @@
     "name":"com.unity.services.analytics",
     "displayName":"Analytics",
     "description":"The Unity Analytics package automatically collects core events and user properties when someone uses your game or application, and enables you to track specific in-game actions your user performs by defining custom events. The data collected from this package is surfaced in the Unity dashboard where you can use it to gather user insights, segment your player base and make informed decisions around the optimization of your game.",
-    "version":"6.0.3",
+    "version":"6.1.0",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.services.core":"1.12.4","com.unity.modules.jsonserialize":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.analytics@6.0/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.analytics@6.1/manual/index.html"
 }
 ,
 "com.unity.services.apis":{
@@ -1796,33 +1796,33 @@
     "name":"com.unity.xr.arcore",
     "displayName":"Google ARCore XR Plugin",
     "description":"Provides native Google ARCore integration for use with Unity's multi-platform XR API.\nSupports the following features:\n-Efficient Background Rendering\n-Horizontal Planes\n-Depth Data\n-Anchors\n-Hit Testing\n-Occlusion",
-    "version":"6.1.1",
+    "version":"6.2.0",
     "dependencies":{
-        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.1.1","com.unity.modules.androidjni":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.2.0","com.unity.modules.androidjni":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arcore@6.1/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arcore@6.2/manual/index.html"
 }
 ,
 "com.unity.xr.arfoundation":{
     "name":"com.unity.xr.arfoundation",
     "displayName":"AR Foundation",
     "description":"AR Foundation enables you to create multi-platform augmented reality (AR) apps with Unity. To learn more about AR Foundation, click the Documentation link above.",
-    "version":"6.1.1",
+    "version":"6.2.0",
     "dependencies":{
         "com.unity.ugui":"2.0.0","com.unity.modules.ui":"1.0.0","com.unity.inputsystem":"1.6.3","com.unity.mathematics":"1.2.6","com.unity.xr.core-utils":"2.5.1","com.unity.xr.management":"4.4.0","com.unity.editorcoroutines":"1.0.0","com.unity.modules.particlesystem":"1.0.0","com.unity.modules.unityanalytics":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.1/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arfoundation@6.2/manual/index.html"
 }
 ,
 "com.unity.xr.arkit":{
     "name":"com.unity.xr.arkit",
     "displayName":"Apple ARKit XR Plugin",
     "description":"Provides native Apple ARKit integration for use with Unity's multi-platform XR API.\nSupports the following features:\n-Efficient Background Rendering\n-Horizontal Planes\n-Depth Data\n-Anchors\n-Hit Testing\n-Face Tracking\n-Environment Probes\n-Meshing\n-Occlusion\n\n* Apple and ARKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
-    "version":"6.1.1",
+    "version":"6.2.0",
     "dependencies":{
-        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.1.1","com.unity.editorcoroutines":"1.0.0"
+        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.2.0","com.unity.editorcoroutines":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arkit@6.1/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arkit@6.2/manual/index.html"
 }
 ,
 "com.unity.xr.hands":{
