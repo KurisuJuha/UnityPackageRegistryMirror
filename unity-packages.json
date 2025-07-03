@@ -1752,7 +1752,7 @@
     "name":"com.unity.transport",
     "displayName":"Unity Transport",
     "description":"Unity network transport layer - the low-level interface for connecting and sending data through a network",
-    "version":"2.5.1",
+    "version":"2.5.2",
     "dependencies":{
         "com.unity.burst":"1.8.12","com.unity.collections":"2.2.1","com.unity.mathematics":"1.3.1"
     },
