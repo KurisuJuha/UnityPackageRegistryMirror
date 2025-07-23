@@ -102,7 +102,7 @@
     "name":"com.unity.adaptiveperformance",
     "displayName":"Adaptive Performance",
     "description":"The Adaptive Performance package provides an API to get feedback about the thermal and power state of mobile devices, enabling applications to make performance-relevant adaptions at runtime.\n\nFor instruction on how to use samples, please read the documentation.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
-    "version":"5.1.4",
+    "version":"5.1.5",
     "dependencies":{
         "com.unity.profiling.core":"1.0.2","com.unity.modules.subsystems":"1.0.0"
     },
