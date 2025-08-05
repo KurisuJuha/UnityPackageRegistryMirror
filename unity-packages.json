@@ -25,7 +25,7 @@
     "name":"com.unity.2d.aseprite",
     "displayName":"2D Aseprite Importer",
     "description":"2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
-    "version":"1.1.9",
+    "version":"1.1.10",
     "dependencies":{
         "com.unity.2d.common":"6.0.6","com.unity.2d.sprite":"1.0.0","com.unity.mathematics":"1.2.6","com.unity.modules.animation":"1.0.0"
     },
@@ -201,7 +201,7 @@
     "name":"com.unity.burst",
     "displayName":"Burst",
     "description":"Burst is a compiler that translates from IL/.NET bytecode to highly optimized native code using LLVM.",
-    "version":"1.8.23",
+    "version":"1.8.24",
     "dependencies":{
         "com.unity.mathematics":"1.2.1","com.unity.modules.jsonserialize":"1.0.0"
     },
@@ -476,7 +476,7 @@
     "name":"com.unity.learn.iet-framework",
     "displayName":"Tutorial Framework",
     "description":"This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
-    "version":"5.0.0",
+    "version":"5.0.1",
     "dependencies":{
         "com.unity.editorcoroutines":"1.0.0","com.unity.settings-manager":"1.0.3"
     },
@@ -487,9 +487,9 @@
     "name":"com.unity.learn.iet-framework.authoring",
     "displayName":"Tutorial Authoring Tools",
     "description":"Authoring tools for In-Editor Tutorials. Required for authoring In-Editor Tutorial assets.",
-    "version":"1.5.0",
+    "version":"1.5.1",
     "dependencies":{
-        "com.unity.learn.iet-framework":"5.0.0"
+        "com.unity.learn.iet-framework":"5.0.1"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.learn.iet-framework.authoring@1.5/manual/index.html"
 }
@@ -1488,7 +1488,7 @@
     "name":"com.unity.services.multiplayer",
     "displayName":"Multiplayer Services",
     "description":"The Multiplayer Services package is a one-stop solution for adding multiplayer elements to a game developed in Unity. The Unity Gaming Services (UGS) Multiplayer services powers these capabilities to define how groups of players interact in your games.",
-    "version":"1.1.5",
+    "version":"1.1.6",
     "dependencies":{
         "com.unity.transport":"2.5.0","com.unity.collections":"2.2.1","com.unity.services.qos":"1.3.0","com.unity.services.core":"1.13.0","com.unity.services.wire":"1.4.0","com.unity.services.deployment":"1.3.0","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.3.3"
     },
