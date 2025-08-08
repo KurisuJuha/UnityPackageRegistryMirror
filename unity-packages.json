@@ -509,7 +509,7 @@
     "name":"com.unity.localization",
     "displayName":"Localization",
     "description":"Use the Localization package to easily configure localization settings for your application.\n\nAdd support for multiple languages and regional variants, including:\n\n• String localization: Set different strings to display based on locale. Use the Smart Strings feature to add logic to automatically replace specific strings, such as placeholders and plurals.\n• Asset localization: Use a different asset (such as a texture, model, or audio file) based on a locale.\n• Pseudo-localization: Test how your project will adapt to different localizations at an early stage, before adding your translations.\n• Import and export localization data to XLIFF, CSV and Google Sheets.\n\nAdd localization to your projects using the Localization package to help make your applications more accessible to a wider audience.",
-    "version":"1.5.5",
+    "version":"1.5.7",
     "dependencies":{
         "com.unity.addressables":"1.25.0","com.unity.nuget.newtonsoft-json":"3.0.2"
     },
@@ -1178,13 +1178,13 @@
 ,
 "com.unity.purchasing":{
     "name":"com.unity.purchasing",
-    "displayName":"In App Purchasing",
-    "description":"IMPORTANT UPGRADE NOTES:\n\nIf updating from Unity IAP (com.unity.purchasing + the Asset Store plugin) versions 2.x to version 3.x, complete the following actions in order to resolve compilation errors:\n 1. Move IAPProductCatalog.json and BillingMode.json\n\tFROM: Assets/Plugins/UnityPurchasing/Resources/\n\tTO: Assets/Resources/.\n 2. Move AppleTangle.cs and GooglePlayTangle.cs\n\tFROM: Assets/Plugins/UnityPurchasing/generated\n\tTO: Assets/Scripts/UnityPurchasing/generated.\n 3. Remove all remaining Asset Store plugin folders and files in Assets/Plugins/UnityPurchasing from your project.\n\nPACKAGE DESCRIPTION:\n\nWith Unity IAP, setting up in-app purchases for your game across multiple app stores has never been easier.\n\nThis package provides:\n\n ▪ One common API to access all stores for free so you can fully understand and optimize your in-game economy\n ▪ Automatic coupling with Unity Analytics to enable monitoring and decision-making based on trends in your revenue and purchase data across multiple platforms\n ▪ Support for iOS, Mac, tvOS, Google Play, Windows, and Amazon app stores(*).\n ▪ Support to work with the Unity Distribution Portal to synchronize catalogs and transactions with other app stores\n ▪ Client-side receipt validation for Apple App Store and Google Play\n\nAfter installing this package, open the Services Window to enable In-App Purchasing to use these features.",
-    "version":"4.13.0",
+    "displayName":"In-App Purchasing",
+    "description":"Unity In-App Purchasing (IAP) allows you to sell digital content within your application. This package provides a unified API for handling in-app purchases across multiple platforms, including the Apple App Store and Google Play Store. Unity IAP simplifies implementing and managing purchases for different stores.\n\nFeatures:\n\n ▪ A single API to access all supported stores, making it easier to manage your in-game economy.\n ▪ Automatic integration with Unity Analytics for monitoring revenue and purchase data across platforms.\n ▪ Supports iOS, Mac, tvOS, and Google Play.\n ▪ Client-side receipt validation for Apple Store and Google Play.\n\nTo enable In-App Purchasing, install the package and open the Services window (Window > General > Services).\n\nUpgrade notes:\nThis release is a major update to the IAP package. Review the included sample for a complete example of how to use the new version. Upgrading is recommended to take advantage of the latest improvements and features.",
+    "version":"5.0.0",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.services.core":"1.12.5","com.unity.modules.androidjni":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.purchasing@4.13/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.purchasing@5.0/manual/index.html"
 }
 ,
 "com.unity.recorder":{
