@@ -232,13 +232,13 @@
 ,
 "com.unity.collab-proxy":{
     "name":"com.unity.collab-proxy",
-    "displayName":"Version Control",
+    "displayName":"Unity Version Control",
     "description":"The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting https://unity.com/solutions/version-control",
-    "version":"2.8.2",
+    "version":"2.9.1",
     "dependencies":{
         
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.8/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.9/manual/index.html"
 }
 ,
 "com.unity.collections":{
