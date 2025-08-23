@@ -234,7 +234,7 @@
     "name":"com.unity.collab-proxy",
     "displayName":"Unity Version Control",
     "description":"The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting https://unity.com/solutions/version-control",
-    "version":"2.9.1",
+    "version":"2.9.2",
     "dependencies":{
         
     },
@@ -1180,9 +1180,9 @@
     "name":"com.unity.purchasing",
     "displayName":"In-App Purchasing",
     "description":"Unity In-App Purchasing (IAP) allows you to sell digital content within your application. This package provides a unified API for handling in-app purchases across multiple platforms, including the Apple App Store and Google Play Store. Unity IAP simplifies implementing and managing purchases for different stores.\n\nFeatures:\n\n ▪ A single API to access all supported stores, making it easier to manage your in-game economy.\n ▪ Automatic integration with Unity Analytics for monitoring revenue and purchase data across platforms.\n ▪ Supports iOS, Mac, tvOS, and Google Play.\n ▪ Client-side receipt validation for Apple Store and Google Play.\n\nTo enable In-App Purchasing, install the package and open the Services window (Window > General > Services).\n\nUpgrade notes:\nThis release is a major update to the IAP package. Review the included sample for a complete example of how to use the new version. Upgrading is recommended to take advantage of the latest improvements and features.",
-    "version":"5.0.0",
+    "version":"5.0.1",
     "dependencies":{
-        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.12.5","com.unity.modules.androidjni":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.14.0","com.unity.modules.androidjni":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.purchasing@5.0/manual/index.html"
 }
@@ -1884,7 +1884,7 @@
     "name":"com.unity.xr.oculus",
     "displayName":"Oculus XR Plugin",
     "description":"Provides display and input support for Oculus devices.",
-    "version":"4.5.1",
+    "version":"4.5.2",
     "dependencies":{
         "com.unity.xr.management":"4.4.0"
     },
