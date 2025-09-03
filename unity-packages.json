@@ -234,7 +234,7 @@
     "name":"com.unity.collab-proxy",
     "displayName":"Unity Version Control",
     "description":"The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting https://unity.com/solutions/version-control",
-    "version":"2.9.2",
+    "version":"2.9.3",
     "dependencies":{
         
     },
