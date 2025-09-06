@@ -102,7 +102,7 @@
     "name":"com.unity.adaptiveperformance",
     "displayName":"Adaptive Performance",
     "description":"The Adaptive Performance package provides an API to get feedback about the thermal and power state of mobile devices, enabling applications to make performance-relevant adaptions at runtime.\n\nFor instruction on how to use samples, please read the documentation.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
-    "version":"5.1.5",
+    "version":"5.1.6",
     "dependencies":{
         "com.unity.profiling.core":"1.0.2","com.unity.modules.subsystems":"1.0.0"
     },
@@ -179,11 +179,11 @@
     "name":"com.unity.asset-manager-for-unity",
     "displayName":"Asset Manager",
     "description":"Asset Manager for Unity is an In-Editor tool that allows you to easily browse, upload and import assets between the Unity Editor and Unity Cloud.",
-    "version":"1.6.0",
+    "version":"1.7.0",
     "dependencies":{
         "com.unity.modules.imgui":"1.0.0","com.unity.settings-manager":"2.0.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.asset-manager-for-unity@1.6/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.asset-manager-for-unity@1.7/manual/index.html"
 }
 ,
 "com.unity.behavior":{
