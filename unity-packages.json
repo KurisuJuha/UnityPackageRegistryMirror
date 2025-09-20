@@ -168,7 +168,7 @@
     "name":"com.unity.animation.rigging",
     "displayName":"Animation Rigging",
     "description":"Animation Rigging toolkit using Unity's Animation C# Jobs",
-    "version":"1.3.0",
+    "version":"1.3.1",
     "dependencies":{
         "com.unity.burst":"1.4.1","com.unity.test-framework":"1.1.24"
     },
@@ -553,7 +553,7 @@
     "name":"com.unity.microsoft.gdk",
     "displayName":"Microsoft GDK API",
     "description":"Provides support for the Microsoft Game Development Kit making it available to approved platforms. Requires the Microsoft platform APIs to be pre-installed.",
-    "version":"1.4.4",
+    "version":"1.4.5",
     "dependencies":{
         "com.unity.microsoft.gdk.discovery":"1.1.0"
     },
@@ -564,7 +564,7 @@
     "name":"com.unity.microsoft.gdk.tools",
     "displayName":"Microsoft GDK Tools",
     "description":"This package adds GDK workflow support when used in combination with com.unity.microsoft.gdk",
-    "version":"1.4.4",
+    "version":"1.4.5",
     "dependencies":{
         "com.unity.microsoft.gdk.discovery":"1.1.0"
     },
@@ -1136,7 +1136,7 @@
     "name":"com.unity.postprocessing",
     "displayName":"Post Processing",
     "description":"The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
-    "version":"3.5.0",
+    "version":"3.5.1",
     "dependencies":{
         "com.unity.modules.physics":"1.0.0"
     },
@@ -1191,7 +1191,7 @@
     "name":"com.unity.recorder",
     "displayName":"Recorder",
     "description":"The Recorder allows you to capture and save data from the Unity Editor during Play mode: animations, videos, images, audio, AOVs, and more.",
-    "version":"5.1.2",
+    "version":"5.1.3",
     "dependencies":{
         "com.unity.timeline":"1.8.7","com.unity.collections":"1.2.4","com.unity.bindings.openimageio":"1.0.0"
     },
@@ -1312,7 +1312,7 @@
     "name":"com.unity.services.apis",
     "displayName":"Cloud Services Apis",
     "description":"Provides low-level access to Unity Cloud Apis. Includes admin and client apis.",
-    "version":"1.1.0",
+    "version":"1.1.1",
     "dependencies":{
         "com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -1323,7 +1323,7 @@
     "name":"com.unity.services.authentication",
     "displayName":"Authentication",
     "description":"Client SDK offering player identity management for Unity Gaming Services.\n\nIdentity providers can be configured from the editor or the Unity Dashboard.\n\nPlayer management is available in the Unity Dashboard.",
-    "version":"3.5.1",
+    "version":"3.5.2",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.services.core":"1.15.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -1356,7 +1356,7 @@
     "name":"com.unity.services.cloud-diagnostics",
     "displayName":"Cloud Diagnostics",
     "description":"This package is a suite of cloud enabled tools that help you collect and identify issues that users encounter with your apps.",
-    "version":"1.0.11",
+    "version":"1.0.12",
     "dependencies":{
         "com.unity.services.core":"1.12.5","com.unity.modules.unityanalytics":"1.0.0"
     },
@@ -1367,7 +1367,7 @@
     "name":"com.unity.services.cloudcode",
     "displayName":"Cloud Code",
     "description":"Run your game logic in the cloud as serverless functions and interact with other backend services.\n\nThis package allows you to call out to Cloud Code from within your project as a secure player.\n\nCloud Code can be used to: \n-Change game logic for all players without re-distributing your game \n-Grant timed rewards \n-Create randomized values",
-    "version":"2.10.1",
+    "version":"2.10.2",
     "dependencies":{
         "com.unity.services.core":"1.15.1","com.unity.services.wire":"1.2.3","com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.5.1"
     },
@@ -1400,7 +1400,7 @@
     "name":"com.unity.services.economy",
     "displayName":"Economy",
     "description":"Economy is a cloud service that enables game developers to create their in-game economy and gives them seamless purchases, currency conversion, player inventory management, and more. By using Economy, you have the power to integrate a fully-featured marketplace into your game, and manage it through a streamlined dashboard. \n\nEconomy can be configured through the Unity Dashboard. This package allows you to interact with your Economy configuration, player’s balances, inventories and purchases.",
-    "version":"3.5.2",
+    "version":"3.5.3",
     "dependencies":{
         "com.unity.services.core":"1.13.0","com.unity.services.authentication":"3.3.3"
     },
@@ -1422,7 +1422,7 @@
     "name":"com.unity.services.leaderboards",
     "displayName":"Leaderboards",
     "description":"Add socio-competitive elements to your game by allowing users to compete on leaderboards. Use the Leaderboards service to store, sort, and rank player scores powered by Unity Gaming Services.",
-    "version":"2.3.0",
+    "version":"2.3.3",
     "dependencies":{
         "com.unity.services.core":"1.15.1","com.unity.services.authentication":"3.3.3"
     },
