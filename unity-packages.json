@@ -1015,7 +1015,7 @@
     "name":"com.unity.multiplayer.widgets",
     "displayName":"Multiplayer Widgets",
     "description":"The Multiplayer Widgets package provides a set of widgets that help implementing Unity's multiplayer services in a rapid prototyping fashion.",
-    "version":"1.0.1",
+    "version":"1.0.2",
     "dependencies":{
         "com.unity.services.multiplayer":"1.0.0"
     },
@@ -1829,22 +1829,22 @@
     "name":"com.unity.xr.hands",
     "displayName":"XR Hands",
     "description":"Surfaces the cross-platform subsystem API for hand-tracking. Implementations of providers will be found in the package for that platform.",
-    "version":"1.6.2",
+    "version":"1.7.0",
     "dependencies":{
         "com.unity.modules.xr":"1.0.0","com.unity.inputsystem":"1.3.0","com.unity.mathematics":"1.2.6","com.unity.xr.core-utils":"2.2.0","com.unity.xr.management":"4.0.1"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.hands@1.6/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.hands@1.7/manual/index.html"
 }
 ,
 "com.unity.xr.interaction.toolkit":{
     "name":"com.unity.xr.interaction.toolkit",
     "displayName":"XR Interaction Toolkit",
     "description":"A high-level, component-based, interaction system for creating VR and AR experiences. It provides a framework that makes 3D and UI interactions available from Unity input events. The core of this system is a set of base Interactor and Interactable components, and an Interaction Manager that ties these two types of components together. It also contains components that you can use for locomotion and drawing visuals.",
-    "version":"3.2.1",
+    "version":"3.3.0",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.modules.xr":"1.0.0","com.unity.inputsystem":"1.8.1","com.unity.mathematics":"1.2.6","com.unity.modules.audio":"1.0.0","com.unity.modules.imgui":"1.0.0","com.unity.xr.core-utils":"2.4.0","com.unity.modules.physics":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.2/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.interaction.toolkit@3.3/manual/index.html"
 }
 ,
 "com.unity.xr.magicleap":{
