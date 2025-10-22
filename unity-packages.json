@@ -135,11 +135,11 @@
     "name":"com.unity.ads",
     "displayName":"Advertisement Legacy",
     "description":"Connect your game to the Unity Ads Network for iOS and Android to quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces with ironSource and recommends using Unity LevelPlay for ad mediation (instead of this package). \n\nThis package will still be supported but no longer updated. To install Unity LevelPlay, use the Ads Mediation package (available below) or the LevelPlay plugin-in at https://developers.is.com/ironsource-mobile/unity/unity-plugin/.\n\nSupported platforms:\n- Android\n- iOS\n",
-    "version":"4.12.0",
+    "version":"4.16.3",
     "dependencies":{
-        "com.unity.ugui":"1.0.0"
+        "com.unity.ugui":"1.0.0","com.unity.modules.androidjni":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.ads@4.12/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.ads@4.16/manual/index.html"
 }
 ,
 "com.unity.ads.ios-support":{
@@ -178,12 +178,12 @@
 "com.unity.asset-manager-for-unity":{
     "name":"com.unity.asset-manager-for-unity",
     "displayName":"Asset Manager",
-    "description":"Asset Manager for Unity is an In-Editor tool that allows you to easily browse, upload and import assets between the Unity Editor and Unity Cloud.",
-    "version":"1.7.0",
+    "description":"Asset Manager for Unity is an In-Editor tool that allows you to easily browse, upload and import assets between the Unity Editor and Unity Cloud.\n\nTo open the Asset Manager for Unity window once the package is installed, go to the top left menu bar, select <b>Window > Asset Manager</b>.",
+    "version":"1.8.0",
     "dependencies":{
         "com.unity.modules.imgui":"1.0.0","com.unity.settings-manager":"2.0.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.asset-manager-for-unity@1.7/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.asset-manager-for-unity@1.8/manual/index.html"
 }
 ,
 "com.unity.behavior":{
@@ -1015,7 +1015,7 @@
     "name":"com.unity.multiplayer.widgets",
     "displayName":"Multiplayer Widgets",
     "description":"The Multiplayer Widgets package provides a set of widgets that help implementing Unity's multiplayer services in a rapid prototyping fashion.",
-    "version":"1.0.2",
+    "version":"1.0.3",
     "dependencies":{
         "com.unity.services.multiplayer":"1.0.0"
     },
@@ -1169,11 +1169,11 @@
     "name":"com.unity.profiling.systemmetrics.mali",
     "displayName":"System Metrics Mali",
     "description":"The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
-    "version":"1.0.3",
+    "version":"1.1.0",
     "dependencies":{
         
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.profiling.systemmetrics.mali@1.0/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.profiling.systemmetrics.mali@1.1/manual/index.html"
 }
 ,
 "com.unity.purchasing":{
@@ -1862,9 +1862,9 @@
     "name":"com.unity.xr.management",
     "displayName":"XR Plugin Management",
     "description":"Package that provides simple management of XR plug-ins. Manages and offers help with loading, initialization, settings, and build support for XR plug-ins.",
-    "version":"4.5.2",
+    "version":"4.5.3",
     "dependencies":{
-        "com.unity.modules.vr":"1.0.0","com.unity.modules.xr":"1.0.0","com.unity.xr.core-utils":"2.2.1","com.unity.modules.subsystems":"1.0.0","com.unity.xr.legacyinputhelpers":"2.1.11"
+        "com.unity.modules.xr":"1.0.0","com.unity.xr.core-utils":"2.2.1","com.unity.modules.subsystems":"1.0.0","com.unity.xr.legacyinputhelpers":"2.1.11"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.management@4.5/manual/index.html"
 }
