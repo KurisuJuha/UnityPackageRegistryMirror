@@ -278,7 +278,7 @@
     "name":"com.unity.device-simulator.devices",
     "displayName":"Device Simulator Devices",
     "description":"This package contains additional devices for the Device Simulator. Each device has a complete device definition and includes a device overlay. After you install this package, the additional devices are immediately available in the Device Simulator.",
-    "version":"1.0.0",
+    "version":"1.0.1",
     "dependencies":{
         
     },
@@ -1620,7 +1620,7 @@
     "name":"com.unity.sysroot",
     "displayName":"Sysroot Base",
     "description":"This is the base sysroot package required by all sysroot and toolchain packages",
-    "version":"2.0.10",
+    "version":"2.0.11",
     "dependencies":{
         
     },
@@ -1631,7 +1631,7 @@
     "name":"com.unity.sysroot.linux-x86_64",
     "displayName":"Sysroot Linux x64",
     "description":"Sysroot used to build unity player for linux x86_64",
-    "version":"2.0.9",
+    "version":"2.0.10",
     "dependencies":{
         "com.unity.sysroot":"2.0.10"
     },
@@ -1697,7 +1697,7 @@
     "name":"com.unity.toolchain.linux-x86_64",
     "displayName":"Toolchain Linux x64",
     "description":"Toolchain to build player target Linux x86_64 on host Linux x86_64",
-    "version":"2.0.10",
+    "version":"2.0.11",
     "dependencies":{
         "com.unity.sysroot":"2.0.10","com.unity.sysroot.linux-x86_64":"2.0.9"
     },
@@ -1708,7 +1708,7 @@
     "name":"com.unity.toolchain.macos-arm64-linux-x86_64",
     "displayName":"Toolchain MacOS Arm64 Linux x64",
     "description":"Cross-compilation toolchain to build player target Linux x86_64 on host Darwin Arm64",
-    "version":"2.0.4",
+    "version":"2.0.5",
     "dependencies":{
         "com.unity.sysroot":"2.0.10","com.unity.sysroot.linux-x86_64":"2.0.9"
     },
@@ -1719,7 +1719,7 @@
     "name":"com.unity.toolchain.macos-x86_64-linux-x86_64",
     "displayName":"Toolchain MacOS Linux x64",
     "description":"Cross-compilation toolchain to build player target Linux x86_64 on host Darwin x86_64",
-    "version":"2.0.10",
+    "version":"2.0.11",
     "dependencies":{
         "com.unity.sysroot":"2.0.10","com.unity.sysroot.linux-x86_64":"2.0.9"
     },
@@ -1730,7 +1730,7 @@
     "name":"com.unity.toolchain.win-arm64-linux-x86_64",
     "displayName":"Toolchain WinArm64 Linux x64",
     "description":"Cross-compilation toolchain to build player target Linux x86_64 on host Windows Arm64",
-    "version":"1.0.4",
+    "version":"1.0.5",
     "dependencies":{
         "com.unity.sysroot":"2.0.10","com.unity.sysroot.linux-x86_64":"2.0.9"
     },
@@ -1741,7 +1741,7 @@
     "name":"com.unity.toolchain.win-x86_64-linux-x86_64",
     "displayName":"Toolchain Win Linux x64",
     "description":"Cross-compilation toolchain to build player target Linux x86_64 on host Windows x86_64",
-    "version":"2.0.10",
+    "version":"2.0.11",
     "dependencies":{
         "com.unity.sysroot":"2.0.10","com.unity.sysroot.linux-x86_64":"2.0.9"
     },
