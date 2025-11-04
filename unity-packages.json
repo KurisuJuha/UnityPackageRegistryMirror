@@ -124,7 +124,7 @@
     "name":"com.unity.addressables.android",
     "displayName":"Addressables for Android",
     "description":"The Addressables for Android package is designed to work in conjunction with the Addressables package to support Play Asset Delivery and provides tools to pack Addressables groups into Android asset packs. This way you can take full advantage of asset pack based dynamic delivery, including Texture Compression Targeting support when it's enabled for your project.",
-    "version":"1.0.7",
+    "version":"1.0.8",
     "dependencies":{
         "com.unity.addressables":"2.3.16","com.unity.modules.androidjni":"1.0.0"
     },
@@ -212,11 +212,11 @@
     "name":"com.unity.charactercontroller",
     "displayName":"Character Controller",
     "description":"This package provides a customizable character controller solution for Entities. \n\n Navigate to the \"Samples\" tab in order to download the \"Standard Characters\", which serve as a starting point for implementing your own characters.",
-    "version":"1.3.12",
+    "version":"1.4.1",
     "dependencies":{
         "com.unity.physics":"1.3.14","com.unity.entities":"1.3.14","com.unity.modules.physics":"1.0.0","com.unity.modules.uielements":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.charactercontroller@1.3/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.charactercontroller@1.4/manual/index.html"
 }
 ,
 "com.unity.cinemachine":{
@@ -421,7 +421,7 @@
     "name":"com.unity.formats.alembic",
     "displayName":"Alembic",
     "description":"Import and export Alembic files (.abc), record and stream animations in the Alembic format directly in Unity.\nNOTE: Supported build platforms: only Windows 64-bit/Arm64, macOS X, and Linux 64.\n\nThe Alembic format is commonly used in animation to transfer facial, cloth, and other simulation between applications in the form of baked data.",
-    "version":"2.4.2",
+    "version":"2.4.3",
     "dependencies":{
         "com.unity.timeline":"1.8.7","com.unity.modules.cloth":"1.0.0","com.unity.modules.unityanalytics":"1.0.0"
     },
@@ -1433,7 +1433,7 @@
     "name":"com.unity.services.levelplay",
     "displayName":"Ads Mediation",
     "description":"After you've installed the Ads Mediation package, create a LevelPlay account and complete your app's ad format integrations if you haven't done so already. Here are the next steps: https://developers.is.com/ironsource-mobile/unity/levelplay-starter-kit/\n\nIMPORTANT UPGRADE NOTES:\n\nBefore updating from Ads Mediation <9.0.0 (or levelplay.unitypackage) to Ads Mediation v9.0.0+, complete the following actions to migrate smoothly:\n\nPlease note: if you are using Developer Settings, you will need to back up your values and re-enter them once you have updated to the latest version of the SDK.\n\n1. In your Project window, locate the Assets/LevelPlay (or Assets/IronSource) folder. Delete this folder and its contents.\n2. In your Project window, locate the Assets/Mobile Dependency Resolver folder. If it exists, delete this folder and its contents.\n3. Return to the Ads Mediation package in Package Manager and install the latest version.\n4. Launch the LevelPlay Network Manager from the Ads Mediation top menu and reinstall network adapters.\n\nFor more information:\n\n▪ Migration guide: https://developers.is.com/ironsource-mobile/unity/unity-package-migration-9-0-0/\n▪ Troubleshooting steps: https://docs.unity.com/en-us/grow/dashboard/levelplay/troubleshoot\n\nPACKAGE DESCRIPTION:\n\nDrive higher revenue with the leading ads mediation platform from Unity. LevelPlay gives you access to a unified auction of all the leading SDK networks and bidders to maximize competition and increase your potential earnings. Serve a diverse mix of ad formats, get real time monetization data, A/B test adjustments to your ad strategy, and more.\n\nSupported platforms:\n\n▪ Android\n▪ iOS",
-    "version":"9.0.1",
+    "version":"9.1.0",
     "dependencies":{
         "com.unity.services.core":"1.15.1"
     },
