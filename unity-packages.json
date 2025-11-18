@@ -14,7 +14,7 @@
     "name":"com.unity.2d.animation",
     "displayName":"2D Animation",
     "description":"2D Animation provides all the necessary tooling and runtime components for skeletal animation using Sprites.",
-    "version":"10.2.1",
+    "version":"10.2.2",
     "dependencies":{
         "com.unity.2d.common":"9.1.1","com.unity.2d.sprite":"1.0.0","com.unity.collections":"1.2.4","com.unity.modules.animation":"1.0.0","com.unity.modules.uielements":"1.0.0"
     },
@@ -1147,7 +1147,7 @@
     "name":"com.unity.probuilder",
     "displayName":"ProBuilder",
     "description":"Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
-    "version":"6.0.7",
+    "version":"6.0.8",
     "dependencies":{
         "com.unity.shadergraph":"17.0.3","com.unity.modules.imgui":"1.0.0","com.unity.modules.physics":"1.0.0","com.unity.settings-manager":"1.0.3"
     },
