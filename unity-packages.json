@@ -179,11 +179,11 @@
     "name":"com.unity.asset-manager-for-unity",
     "displayName":"Asset Manager",
     "description":"Asset Manager for Unity is an In-Editor tool that allows you to easily browse, upload and import assets between the Unity Editor and Unity Cloud.\n\nTo open the Asset Manager for Unity window once the package is installed, go to the top left menu bar, select <b>Window > Asset Manager</b>.",
-    "version":"1.8.0",
+    "version":"1.9.0",
     "dependencies":{
         "com.unity.modules.imgui":"1.0.0","com.unity.settings-manager":"2.0.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.asset-manager-for-unity@1.8/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.asset-manager-for-unity@1.9/manual/index.html"
 }
 ,
 "com.unity.behavior":{
