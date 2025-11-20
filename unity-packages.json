@@ -135,7 +135,7 @@
     "name":"com.unity.ads",
     "displayName":"Advertisement Legacy",
     "description":"Connect your game to the Unity Ads Network for iOS and Android to quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces with ironSource and recommends using Unity LevelPlay for ad mediation (instead of this package). \n\nThis package will still be supported but no longer updated. To install Unity LevelPlay, use the Ads Mediation package (available below) or the LevelPlay plugin-in at https://developers.is.com/ironsource-mobile/unity/unity-plugin/.\n\nSupported platforms:\n- Android\n- iOS\n",
-    "version":"4.16.3",
+    "version":"4.16.4",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.modules.androidjni":"1.0.0"
     },
@@ -1433,7 +1433,7 @@
     "name":"com.unity.services.levelplay",
     "displayName":"Ads Mediation",
     "description":"After you've installed the Ads Mediation package, create a LevelPlay account and complete your app's ad format integrations if you haven't done so already. Here are the next steps: https://developers.is.com/ironsource-mobile/unity/levelplay-starter-kit/\n\nIMPORTANT UPGRADE NOTES:\n\nBefore updating from Ads Mediation <9.0.0 (or levelplay.unitypackage) to Ads Mediation v9.0.0+, complete the following actions to migrate smoothly:\n\nPlease note: if you are using Developer Settings, you will need to back up your values and re-enter them once you have updated to the latest version of the SDK.\n\n1. In your Project window, locate the Assets/LevelPlay (or Assets/IronSource) folder. Delete this folder and its contents.\n2. In your Project window, locate the Assets/Mobile Dependency Resolver folder. If it exists, delete this folder and its contents.\n3. Return to the Ads Mediation package in Package Manager and install the latest version.\n4. Launch the LevelPlay Network Manager from the Ads Mediation top menu and reinstall network adapters.\n\nFor more information:\n\n▪ Migration guide: https://developers.is.com/ironsource-mobile/unity/unity-package-migration-9-0-0/\n▪ Troubleshooting steps: https://docs.unity.com/en-us/grow/dashboard/levelplay/troubleshoot\n\nPACKAGE DESCRIPTION:\n\nDrive higher revenue with the leading ads mediation platform from Unity. LevelPlay gives you access to a unified auction of all the leading SDK networks and bidders to maximize competition and increase your potential earnings. Serve a diverse mix of ad formats, get real time monetization data, A/B test adjustments to your ad strategy, and more.\n\nSupported platforms:\n\n▪ Android\n▪ iOS",
-    "version":"9.1.0",
+    "version":"9.2.0",
     "dependencies":{
         "com.unity.services.core":"1.15.1"
     },
