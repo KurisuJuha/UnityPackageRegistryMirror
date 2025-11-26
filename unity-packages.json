@@ -124,7 +124,7 @@
     "name":"com.unity.addressables.android",
     "displayName":"Addressables for Android",
     "description":"The Addressables for Android package is designed to work in conjunction with the Addressables package to support Play Asset Delivery and provides tools to pack Addressables groups into Android asset packs. This way you can take full advantage of asset pack based dynamic delivery, including Texture Compression Targeting support when it's enabled for your project.",
-    "version":"1.0.8",
+    "version":"1.0.9",
     "dependencies":{
         "com.unity.addressables":"2.3.16","com.unity.modules.androidjni":"1.0.0"
     },
@@ -201,7 +201,7 @@
     "name":"com.unity.burst",
     "displayName":"Burst",
     "description":"Burst is a compiler that translates from IL/.NET bytecode to highly optimized native code using LLVM.",
-    "version":"1.8.25",
+    "version":"1.8.26",
     "dependencies":{
         "com.unity.mathematics":"1.2.1","com.unity.modules.jsonserialize":"1.0.0"
     },
@@ -1378,11 +1378,11 @@
     "name":"com.unity.services.cloudsave",
     "displayName":"Cloud Save",
     "description":"Build better player experiences with seamless game data stored securely in the cloud.\n\nUse Cloud Save to store your players’ progress and preferences, by doing so you can share this data between all the players’ devices and any game backend services.",
-    "version":"3.2.2",
+    "version":"3.4.0",
     "dependencies":{
         "com.unity.services.core":"1.12.5","com.unity.services.authentication":"3.3.1"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.cloudsave@3.2/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.cloudsave@3.4/manual/index.html"
 }
 ,
 "com.unity.services.deployment":{
