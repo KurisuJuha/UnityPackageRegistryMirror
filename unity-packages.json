@@ -465,11 +465,11 @@
     "name":"com.unity.inputsystem",
     "displayName":"Input System",
     "description":"A new input system which can be used as a more extensible and customizable alternative to Unity's classic input system in UnityEngine.Input.",
-    "version":"1.16.0",
+    "version":"1.17.0",
     "dependencies":{
         "com.unity.modules.uielements":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.inputsystem@1.16/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.inputsystem@1.17/manual/index.html"
 }
 ,
 "com.unity.learn.iet-framework":{
