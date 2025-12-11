@@ -1202,7 +1202,7 @@
     "name":"com.unity.remote-config",
     "displayName":"Remote Config",
     "description":"Remote Config is a cloud service that lets you tune and customize your app over the air without requiring an update to your game.  You can use rules to enable or disable features, change the difficulty of your game or run special events to target specific audiences.  Campaigns control when updates are applied and to whom, while Unity manages delivery of your game content with minimal performance impact. \n\nRemote Config can be configured via the editor or through our public API’s.  Functionality includes: \n- Release new features without deploying code:\n   - Feature flagging\n   - Staged Rollouts\n   - Kill switch functionality\n   - Start & End Date\n   - Enable & disable rules\n- Personalized real-time segmentation with custom attributes\n   - Custom conditions for applying setting variants\n   - Device, user, game and other arbitrary attributes supporting\n- Reporting\n   - Tracing ID for decorating analytics events",
-    "version":"4.2.3",
+    "version":"4.2.4",
     "dependencies":{
         "com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.remote-config-runtime":"4.0.4","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -1895,9 +1895,9 @@
     "name":"com.unity.xr.openxr",
     "displayName":"OpenXR Plugin",
     "description":"OpenXR is an open, royalty-free standard developed by Khronos that aims to simplify AR/VR development by allowing developers to target a wide range of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.",
-    "version":"1.16.0",
+    "version":"1.16.1",
     "dependencies":{
-        "com.unity.inputsystem":"1.6.3","com.unity.xr.core-utils":"2.3.0","com.unity.xr.management":"4.4.0","com.unity.xr.legacyinputhelpers":"2.1.2"
+        "com.unity.inputsystem":"1.6.3","com.unity.xr.core-utils":"2.3.0","com.unity.xr.management":"4.4.0","com.unity.modules.androidjni":"1.0.0","com.unity.xr.legacyinputhelpers":"2.1.2"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.16/manual/index.html"
 }
