@@ -1686,7 +1686,7 @@
     "name":"com.unity.timeline",
     "displayName":"Timeline",
     "description":"Use Unity Timeline to create cinematic content, game-play sequences, audio sequences, and complex particle effects.",
-    "version":"1.8.9",
+    "version":"1.8.10",
     "dependencies":{
         "com.unity.modules.audio":"1.0.0","com.unity.modules.director":"1.0.0","com.unity.modules.animation":"1.0.0","com.unity.modules.particlesystem":"1.0.0"
     },
@@ -1873,11 +1873,11 @@
     "name":"com.unity.xr.meta-openxr",
     "displayName":"Unity OpenXR Meta",
     "description":"Enables you to build mixed reality apps for Meta Quest devices by implementing support for Meta's OpenXR extensions.",
-    "version":"2.3.0",
+    "version":"2.4.0",
     "dependencies":{
-        "com.unity.xr.openxr":"1.15.1","com.unity.xr.core-utils":"2.5.1","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.3.0","com.unity.xr.compositionlayers":"2.1.1"
+        "com.unity.xr.openxr":"1.15.1","com.unity.xr.core-utils":"2.5.1","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.4.0","com.unity.xr.compositionlayers":"2.2.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@2.3/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.meta-openxr@2.4/manual/index.html"
 }
 ,
 "com.unity.xr.oculus":{
