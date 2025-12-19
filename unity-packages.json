@@ -190,7 +190,7 @@
     "name":"com.unity.behavior",
     "displayName":"Behavior",
     "description":"Unity Behavior is a graph-based tool to create and run behavior trees with a modular architecture.\n\n▪ Human-readable graphs flow top-to-bottom with plain-language nodes\n▪ Comprehensive library of pre-built nodes for movement, detection, and decision-making\n▪ Seamless C# integration with a familiar lifecycle model\n▪ Hierarchical design supporting reusable subgraphs\n▪ Real-time debugging visualization during Play mode\n▪ Event-driven architecture for dynamic game reactions\n\nIdeal for NPC behaviors, quest logic, environmental interactions, and game state management.\n\nA demo showcasing this package can be found in the Asset Store https://assetstore.unity.com/packages/templates/tutorials/behavior-demo-for-unity-298313.",
-    "version":"1.0.13",
+    "version":"1.0.14",
     "dependencies":{
         "com.unity.burst":"1.7.2","com.unity.dt.app-ui":"2.0.0","com.unity.modules.ai":"1.0.0","com.unity.collections":"2.1.4","com.unity.modules.audio":"1.0.0","com.unity.modules.animation":"1.0.0","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.particlesystem":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -1796,9 +1796,9 @@
     "name":"com.unity.xr.arcore",
     "displayName":"Google ARCore XR Plugin",
     "description":"Provides native Google ARCore integration for use with Unity's multi-platform XR API.\nSupports the following features:\n-Efficient Background Rendering\n-Horizontal Planes\n-Depth Data\n-Anchors\n-Hit Testing\n-Occlusion",
-    "version":"6.4.0",
+    "version":"6.4.1",
     "dependencies":{
-        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.4.0","com.unity.modules.androidjni":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
+        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.4.1","com.unity.modules.androidjni":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arcore@6.4/manual/index.html"
 }
@@ -1807,7 +1807,7 @@
     "name":"com.unity.xr.arfoundation",
     "displayName":"AR Foundation",
     "description":"AR Foundation enables you to create multi-platform augmented reality (AR) apps with Unity. To learn more about AR Foundation, click the Documentation link above.",
-    "version":"6.4.0",
+    "version":"6.4.1",
     "dependencies":{
         "com.unity.ugui":"2.0.0","com.unity.modules.ui":"1.0.0","com.unity.inputsystem":"1.6.3","com.unity.mathematics":"1.2.6","com.unity.xr.core-utils":"2.5.1","com.unity.xr.management":"4.4.0","com.unity.editorcoroutines":"1.0.0","com.unity.modules.particlesystem":"1.0.0","com.unity.modules.unityanalytics":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -1818,9 +1818,9 @@
     "name":"com.unity.xr.arkit",
     "displayName":"Apple ARKit XR Plugin",
     "description":"Provides native Apple ARKit integration for use with Unity's multi-platform XR API.\nSupports the following features:\n-Efficient Background Rendering\n-Horizontal Planes\n-Depth Data\n-Anchors\n-Hit Testing\n-Face Tracking\n-Environment Probes\n-Meshing\n-Occlusion\n\n* Apple and ARKit are trademarks of Apple Inc., registered in the U.S. and other countries and regions.",
-    "version":"6.4.0",
+    "version":"6.4.1",
     "dependencies":{
-        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.4.0","com.unity.editorcoroutines":"1.0.0"
+        "com.unity.xr.core-utils":"2.2.2","com.unity.xr.management":"4.4.0","com.unity.xr.arfoundation":"6.4.1","com.unity.editorcoroutines":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.arkit@6.4/manual/index.html"
 }
