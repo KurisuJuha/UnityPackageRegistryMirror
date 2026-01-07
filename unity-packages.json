@@ -1323,11 +1323,11 @@
     "name":"com.unity.services.authentication",
     "displayName":"Authentication",
     "description":"Client SDK offering player identity management for Unity Gaming Services.\n\nIdentity providers can be configured from the editor or the Unity Dashboard.\n\nPlayer management is available in the Unity Dashboard.",
-    "version":"3.5.2",
+    "version":"3.6.0",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.services.core":"1.15.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.authentication@3.5/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.authentication@3.6/manual/index.html"
 }
 ,
 "com.unity.services.ccd.management":{
