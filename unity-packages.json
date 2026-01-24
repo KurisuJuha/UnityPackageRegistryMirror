@@ -234,7 +234,7 @@
     "name":"com.unity.collab-proxy",
     "displayName":"Unity Version Control",
     "description":"The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting https://unity.com/solutions/version-control",
-    "version":"2.11.2",
+    "version":"2.11.3",
     "dependencies":{
         
     },
@@ -1169,7 +1169,7 @@
     "name":"com.unity.profiling.systemmetrics.mali",
     "displayName":"System Metrics Mali",
     "description":"The System Metrics package provides access to low-level system or hardware performance metrics on ARM Mali devices. It enables applications to make performance-relevant measurements in development and runtime using ProfilerRecorder API.\n\nBy installing this package, you agree to the terms and conditions of the Unity End User License Agreement found under \"View licenses\" above.",
-    "version":"1.1.0",
+    "version":"1.1.1",
     "dependencies":{
         
     },
