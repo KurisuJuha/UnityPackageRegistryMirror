@@ -113,9 +113,9 @@
     "name":"com.unity.addressables",
     "displayName":"Addressables",
     "description":"The Addressable Asset System allows the developer to ask for an asset via its address. Once an asset (e.g. a prefab) is marked \"addressable\", it generates an address which can be called from anywhere. Wherever the asset resides (local or remote), the system will locate it and its dependencies, then return it.\n\nUse 'Window->Asset Management->Addressables' to begin working with the system.\n\nAddressables use asynchronous loading to support loading from any location with any collection of dependencies. Whether you have been using direct references, traditional asset bundles, or Resource folders, addressables provide a simpler way to make your game more dynamic. Addressables simultaneously opens up the world of asset bundles while managing all the complexity.\n\nFor usage samples, see github.com/Unity-Technologies/Addressables-Sample",
-    "version":"2.8.0",
+    "version":"2.8.1",
     "dependencies":{
-        "com.unity.profiling.core":"1.0.2","com.unity.test-framework":"1.4.5","com.unity.modules.assetbundle":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.imageconversion":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0","com.unity.scriptablebuildpipeline":"2.5.1","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
+        "com.unity.profiling.core":"1.0.2","com.unity.test-framework":"1.4.5","com.unity.modules.assetbundle":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.imageconversion":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0","com.unity.scriptablebuildpipeline":"2.5.2","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.addressables@2.8/manual/index.html"
 }
@@ -157,7 +157,7 @@
     "name":"com.unity.ai.navigation",
     "displayName":"AI Navigation",
     "description":"The AI Navigation package contains high-level components that allow you to use navmeshes to incorporate navigation and pathfinding in your game. With this package installed you can build and use navmeshes at runtime and at edit time, create dynamic obstacles, and use links to allow specific actions (like jumping) as your characters navigate between navmeshes.",
-    "version":"2.0.9",
+    "version":"2.0.10",
     "dependencies":{
         "com.unity.modules.ai":"1.0.0"
     },
@@ -1257,7 +1257,7 @@
     "name":"com.unity.scriptablebuildpipeline",
     "displayName":"Scriptable Build Pipeline",
     "description":"The Scriptable Build Pipeline moves the asset bundle build pipeline to C#.  Use the pre-defined build flows, or create your own using the divided up APIs.  This system improves build time, fixes incremental build, and provides greater flexibility.",
-    "version":"2.5.1",
+    "version":"2.5.2",
     "dependencies":{
         "com.unity.test-framework":"1.4.5","com.unity.modules.assetbundle":"1.0.0"
     },
@@ -1301,7 +1301,7 @@
     "name":"com.unity.services.analytics",
     "displayName":"Analytics",
     "description":"The Unity Analytics package automatically collects core events and user properties when someone uses your game or application, and enables you to track specific in-game actions your user performs by defining custom events. The data collected from this package is surfaced in the Unity dashboard where you can use it to gather user insights, segment your player base and make informed decisions around the optimization of your game.",
-    "version":"6.2.0",
+    "version":"6.2.1",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.services.core":"1.12.4","com.unity.modules.jsonserialize":"1.0.0"
     },
