@@ -189,8 +189,8 @@
 "com.unity.behavior":{
     "name":"com.unity.behavior",
     "displayName":"Behavior",
-    "description":"Unity Behavior is a graph-based tool to create and run behavior trees with a modular architecture.\n\n▪ Human-readable graphs flow top-to-bottom with plain-language nodes\n▪ Comprehensive library of pre-built nodes for movement, detection, and decision-making\n▪ Seamless C# integration with a familiar lifecycle model\n▪ Hierarchical design supporting reusable subgraphs\n▪ Real-time debugging visualization during Play mode\n▪ Event-driven architecture for dynamic game reactions\n\nIdeal for NPC behaviors, quest logic, environmental interactions, and game state management.\n\nA demo showcasing this package can be found in the Asset Store https://assetstore.unity.com/packages/templates/tutorials/behavior-demo-for-unity-298313.",
-    "version":"1.0.14",
+    "description":"Unity Behavior is a graph-based tool to create and run behavior trees with a modular architecture.\n\n▪ Human-readable graphs flow top-to-bottom with plain-language nodes\n▪ Comprehensive library of pre-built nodes for movement, detection, and decision-making\n▪ Seamless C# integration with a familiar lifecycle model\n▪ Hierarchical design supporting reusable subgraphs\n▪ Real-time debugging visualization during Play mode\n▪ Event-driven architecture and observer abort support for dynamic game reactions\n\nIdeal for NPC behaviors, quest logic, environmental interactions, and game state management.\n\nA demo showcasing this package can be found in the Asset Store https://assetstore.unity.com/packages/templates/tutorials/behavior-demo-for-unity-298313.",
+    "version":"1.0.15",
     "dependencies":{
         "com.unity.burst":"1.7.2","com.unity.dt.app-ui":"2.0.0","com.unity.modules.ai":"1.0.0","com.unity.collections":"2.1.4","com.unity.modules.audio":"1.0.0","com.unity.modules.animation":"1.0.0","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.particlesystem":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -421,7 +421,7 @@
     "name":"com.unity.formats.alembic",
     "displayName":"Alembic",
     "description":"Import and export Alembic files (.abc), record and stream animations in the Alembic format directly in Unity.\nNOTE: Supported build platforms: only Windows 64-bit/Arm64, macOS X, and Linux 64.\n\nThe Alembic format is commonly used in animation to transfer facial, cloth, and other simulation between applications in the form of baked data.",
-    "version":"2.4.3",
+    "version":"2.4.4",
     "dependencies":{
         "com.unity.timeline":"1.8.7","com.unity.modules.cloth":"1.0.0","com.unity.modules.unityanalytics":"1.0.0"
     },
@@ -542,7 +542,7 @@
     "name":"com.unity.memoryprofiler",
     "displayName":"Memory Profiler",
     "description":"The Memory Profiler offers a unified solution allowing you to profile both small projects on mobile devices and big AAA projects on high end machines. It provides actionable information about allocations in the engine to allow developers to manage and reduce memory usage.",
-    "version":"1.1.9",
+    "version":"1.1.10",
     "dependencies":{
         "com.unity.burst":"1.8.0","com.unity.collections":"1.2.3","com.unity.mathematics":"1.2.1","com.unity.profiling.core":"1.0.0","com.unity.editorcoroutines":"1.0.0"
     },
@@ -597,7 +597,7 @@
     "name":"com.unity.mobile.notifications",
     "displayName":"Mobile Notifications",
     "description":"Mobile Notifications package adds support for scheduling local repeatable or one-time notifications on iOS and Android.\n\nOn iOS receiving of push notifications is also supported.",
-    "version":"2.4.2",
+    "version":"2.4.3",
     "dependencies":{
         "com.unity.modules.androidjni":"1.0.0"
     },
@@ -1488,7 +1488,7 @@
     "name":"com.unity.services.multiplayer",
     "displayName":"Multiplayer Services",
     "description":"The Multiplayer Services package is a one-stop solution for adding multiplayer elements to a game developed in Unity. The Unity Gaming Services (UGS) Multiplayer services powers these capabilities to define how groups of players interact in your games.",
-    "version":"2.1.0",
+    "version":"2.1.1",
     "dependencies":{
         "com.unity.transport":"2.5.0","com.unity.collections":"2.2.1","com.unity.services.qos":"1.3.0","com.unity.services.core":"1.15.1","com.unity.services.wire":"1.4.0","com.unity.services.deployment":"1.6.2","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.6.0"
     },
