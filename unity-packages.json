@@ -454,7 +454,7 @@
     "name":"com.unity.ide.visualstudio",
     "displayName":"Visual Studio Editor",
     "description":"Code editor integration for supporting Visual Studio as code editor for unity. Adds support for generating csproj files for intellisense purposes, auto discovery of installations, etc.",
-    "version":"2.0.26",
+    "version":"2.0.27",
     "dependencies":{
         "com.unity.test-framework":"1.1.33"
     },
@@ -575,9 +575,9 @@
     "name":"com.unity.ml-agents",
     "displayName":"ML Agents",
     "description":"Use state-of-the-art machine learning to create intelligent character behaviors in any Unity environment (games, robotics, film, etc.).",
-    "version":"4.0.1",
+    "version":"4.0.2",
     "dependencies":{
-        "com.unity.ai.inference":"2.4.1","com.unity.modules.physics":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.imageconversion":"1.0.0"
+        "com.unity.ai.inference":"2.5.0","com.unity.modules.physics":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.imageconversion":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.ml-agents@4.0/manual/index.html"
 }
@@ -1059,22 +1059,22 @@
     "name":"com.unity.netcode",
     "displayName":"Netcode for Entities",
     "description":"Unity's Data Oriented Technology Stack (DOTS) multiplayer netcode layer - a high level netcode system built on entities. This package provides a foundation for creating networked multiplayer applications within DOTS.",
-    "version":"1.11.0",
+    "version":"1.12.0",
     "dependencies":{
-        "com.unity.entities":"1.4.2","com.unity.transport":"2.5.3","com.unity.modules.animation":"1.0.0"
+        "com.unity.entities":"1.4.4","com.unity.transport":"2.5.3","com.unity.modules.animation":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode@1.11/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode@1.12/manual/index.html"
 }
 ,
 "com.unity.netcode.gameobjects":{
     "name":"com.unity.netcode.gameobjects",
     "displayName":"Netcode for GameObjects",
     "description":"Netcode for GameObjects is a high-level netcode SDK that provides networking capabilities to GameObject/MonoBehaviour workflows within Unity and sits on top of underlying transport layer.",
-    "version":"2.8.1",
+    "version":"2.9.0",
     "dependencies":{
         "com.unity.transport":"2.6.0","com.unity.nuget.mono-cecil":"1.11.4"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.8/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.9/manual/index.html"
 }
 ,
 "com.unity.performance.profile-analyzer":{
