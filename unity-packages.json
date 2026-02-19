@@ -124,7 +124,7 @@
     "name":"com.unity.addressables.android",
     "displayName":"Addressables for Android",
     "description":"The Addressables for Android package is designed to work in conjunction with the Addressables package to support Play Asset Delivery and provides tools to pack Addressables groups into Android asset packs. This way you can take full advantage of asset pack based dynamic delivery, including Texture Compression Targeting support when it's enabled for your project.",
-    "version":"1.0.9",
+    "version":"1.0.10",
     "dependencies":{
         "com.unity.addressables":"2.3.16","com.unity.modules.androidjni":"1.0.0"
     },
@@ -1884,9 +1884,9 @@
     "name":"com.unity.xr.oculus",
     "displayName":"Oculus XR Plugin",
     "description":"Provides display and input support for Oculus devices.",
-    "version":"4.5.2",
+    "version":"4.5.4",
     "dependencies":{
-        "com.unity.xr.management":"4.4.0"
+        "com.unity.xr.management":"4.4.0","com.unity.modules.androidjni":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.oculus@4.5/manual/index.html"
 }
