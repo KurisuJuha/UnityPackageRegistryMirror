@@ -157,7 +157,7 @@
     "name":"com.unity.ai.navigation",
     "displayName":"AI Navigation",
     "description":"The AI Navigation package contains high-level components that allow you to use navmeshes to incorporate navigation and pathfinding in your game. With this package installed you can build and use navmeshes at runtime and at edit time, create dynamic obstacles, and use links to allow specific actions (like jumping) as your characters navigate between navmeshes.",
-    "version":"2.0.10",
+    "version":"2.0.11",
     "dependencies":{
         "com.unity.modules.ai":"1.0.0"
     },
@@ -476,7 +476,7 @@
     "name":"com.unity.learn.iet-framework",
     "displayName":"Tutorial Framework",
     "description":"This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
-    "version":"5.0.2",
+    "version":"5.0.3",
     "dependencies":{
         "com.unity.editorcoroutines":"1.0.0","com.unity.settings-manager":"1.0.3"
     },
@@ -487,9 +487,9 @@
     "name":"com.unity.learn.iet-framework.authoring",
     "displayName":"Tutorial Authoring Tools",
     "description":"Authoring tools for In-Editor Tutorials. Required for authoring In-Editor Tutorial assets.",
-    "version":"1.5.2",
+    "version":"1.5.3",
     "dependencies":{
-        "com.unity.learn.iet-framework":"5.0.2"
+        "com.unity.learn.iet-framework":"5.0.3"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.learn.iet-framework.authoring@1.5/manual/index.html"
 }
@@ -1389,7 +1389,7 @@
     "name":"com.unity.services.deployment",
     "displayName":"Deployment",
     "description":"The Deployment package allows for a cohesive interface for the deployment of assets and configurations for UGS services.\n\nIt is not used on its own as UGS services will integrate with it.\nIt provides the base tooling, such as the Deployment Window, so that UGS services have shared functionality surrounding the deployment of the service's configuration files.\nCurrently supports:\n- Cloud Code\n- Economy\n- Leaderboards\n- Multiplayer Services\n\t- Server Hosting\n\t- Matchmaker\n- Services tooling\n\t- Game Overrides\n\t- Access Control\n- Remote Config",
-    "version":"1.7.0",
+    "version":"1.7.1",
     "dependencies":{
         "com.unity.services.core":"1.15.1","com.unity.services.deployment.api":"1.1.2"
     },
