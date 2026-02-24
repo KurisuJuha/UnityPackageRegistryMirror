@@ -476,22 +476,22 @@
     "name":"com.unity.learn.iet-framework",
     "displayName":"Tutorial Framework",
     "description":"This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
-    "version":"5.0.3",
+    "version":"6.0.0",
     "dependencies":{
         "com.unity.editorcoroutines":"1.0.0","com.unity.settings-manager":"1.0.3"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.learn.iet-framework@5.0/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.learn.iet-framework@6.0/manual/index.html"
 }
 ,
 "com.unity.learn.iet-framework.authoring":{
     "name":"com.unity.learn.iet-framework.authoring",
     "displayName":"Tutorial Authoring Tools",
     "description":"Authoring tools for In-Editor Tutorials. Required for authoring In-Editor Tutorial assets.",
-    "version":"1.5.3",
+    "version":"2.0.0",
     "dependencies":{
-        "com.unity.learn.iet-framework":"5.0.3"
+        "com.unity.learn.iet-framework":"6.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.learn.iet-framework.authoring@1.5/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.learn.iet-framework.authoring@2.0/manual/index.html"
 }
 ,
 "com.unity.live-capture":{
@@ -1202,7 +1202,7 @@
     "name":"com.unity.remote-config",
     "displayName":"Remote Config",
     "description":"Remote Config is a cloud service that lets you tune and customize your app over the air without requiring an update to your game.  You can use rules to enable or disable features, change the difficulty of your game or run special events to target specific audiences.  Campaigns control when updates are applied and to whom, while Unity manages delivery of your game content with minimal performance impact. \n\nRemote Config can be configured via the editor or through our public API’s.  Functionality includes: \n- Release new features without deploying code:\n   - Feature flagging\n   - Staged Rollouts\n   - Kill switch functionality\n   - Start & End Date\n   - Enable & disable rules\n- Personalized real-time segmentation with custom attributes\n   - Custom conditions for applying setting variants\n   - Device, user, game and other arbitrary attributes supporting\n- Reporting\n   - Tracing ID for decorating analytics events",
-    "version":"4.2.4",
+    "version":"4.2.5",
     "dependencies":{
         "com.unity.nuget.newtonsoft-json":"3.0.2","com.unity.remote-config-runtime":"4.0.4","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -1488,9 +1488,9 @@
     "name":"com.unity.services.multiplayer",
     "displayName":"Multiplayer Services",
     "description":"The Multiplayer Services package is a one-stop solution for adding multiplayer elements to a game developed in Unity. The Unity Gaming Services (UGS) Multiplayer services powers these capabilities to define how groups of players interact in your games.",
-    "version":"2.1.2",
+    "version":"2.1.3",
     "dependencies":{
-        "com.unity.transport":"2.5.0","com.unity.collections":"2.2.1","com.unity.services.qos":"1.3.0","com.unity.services.core":"1.15.1","com.unity.services.wire":"1.4.0","com.unity.services.deployment":"1.6.2","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.6.0"
+        "com.unity.transport":"2.6.0","com.unity.collections":"2.2.1","com.unity.services.qos":"1.4.1","com.unity.services.core":"1.16.0","com.unity.services.wire":"1.4.1","com.unity.services.deployment":"1.7.1","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.6.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.services.multiplayer@2.1/manual/index.html"
 }
@@ -1642,7 +1642,7 @@
     "name":"com.unity.terrain-tools",
     "displayName":"Terrain Tools",
     "description":"The Terrain Tools package adds additional Terrain sculpting brushes and tools to Unity. This add-on toolset is suitable if you require more control over the appearance of your Terrain, and want to streamline Terrain workflows. It’s also useful when you want to make more complex-looking Terrain, or author Terrain Texture data in external digital content creation tools.",
-    "version":"5.3.1",
+    "version":"5.3.2",
     "dependencies":{
         "com.unity.modules.terrain":"1.0.0","com.unity.modules.terrainphysics":"1.0.0"
     },
@@ -1785,7 +1785,7 @@
     "name":"com.unity.visualscripting",
     "displayName":"Visual Scripting",
     "description":"Visual scripting is a workflow that uses visual, node-based graphs to design behaviors rather than write lines of C# script.\n\nEnabling artists, designers and programmers alike, visual scripting can be used to design final logic, quickly create prototypes, iterate on gameplay and create custom nodes to help streamline collaboration.\n\nVisual scripting is compatible with third-party APIs, including most packages, assets and custom libraries.",
-    "version":"1.9.9",
+    "version":"1.9.10",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.modules.jsonserialize":"1.0.0"
     },
