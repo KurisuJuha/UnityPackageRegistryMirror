@@ -179,7 +179,7 @@
     "name":"com.unity.asset-manager-for-unity",
     "displayName":"Asset Manager",
     "description":"Asset Manager for Unity is an In-Editor tool that allows you to easily browse, upload and import assets between the Unity Editor and Unity Cloud.\n\nTo open the Asset Manager for Unity window once the package is installed, go to the top left menu bar, select <b>Window > Asset Manager</b>.",
-    "version":"1.9.1",
+    "version":"1.9.2",
     "dependencies":{
         "com.unity.modules.imgui":"1.0.0","com.unity.settings-manager":"2.0.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -465,18 +465,18 @@
     "name":"com.unity.inputsystem",
     "displayName":"Input System",
     "description":"A new input system which can be used as a more extensible and customizable alternative to Unity's classic input system in UnityEngine.Input.",
-    "version":"1.18.0",
+    "version":"1.19.0",
     "dependencies":{
         "com.unity.modules.uielements":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.inputsystem@1.18/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.inputsystem@1.19/manual/index.html"
 }
 ,
 "com.unity.learn.iet-framework":{
     "name":"com.unity.learn.iet-framework",
     "displayName":"Tutorial Framework",
     "description":"This package is used to display interactive in-Editor tutorials in tutorial projects and project templates.",
-    "version":"6.0.0",
+    "version":"6.0.1",
     "dependencies":{
         "com.unity.editorcoroutines":"1.0.0","com.unity.settings-manager":"1.0.3"
     },
@@ -487,9 +487,9 @@
     "name":"com.unity.learn.iet-framework.authoring",
     "displayName":"Tutorial Authoring Tools",
     "description":"Authoring tools for In-Editor Tutorials. Required for authoring In-Editor Tutorial assets.",
-    "version":"2.0.0",
+    "version":"2.0.1",
     "dependencies":{
-        "com.unity.learn.iet-framework":"6.0.0"
+        "com.unity.learn.iet-framework":"6.0.1"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.learn.iet-framework.authoring@2.0/manual/index.html"
 }
@@ -1301,9 +1301,9 @@
     "name":"com.unity.services.analytics",
     "displayName":"Analytics",
     "description":"The Unity Analytics package automatically collects core events and user properties when someone uses your game or application, and enables you to track specific in-game actions your user performs by defining custom events. The data collected from this package is surfaced in the Unity dashboard where you can use it to gather user insights, segment your player base and make informed decisions around the optimization of your game.",
-    "version":"6.2.1",
+    "version":"6.2.2",
     "dependencies":{
-        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.12.4","com.unity.modules.jsonserialize":"1.0.0"
+        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.16.0","com.unity.modules.jsonserialize":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.services.analytics@6.2/manual/index.html"
 }
