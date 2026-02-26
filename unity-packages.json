@@ -223,7 +223,7 @@
     "name":"com.unity.cinemachine",
     "displayName":"Cinemachine",
     "description":"Smart camera tools for passionate creators. \n\nCinemachine 3 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
-    "version":"3.1.5",
+    "version":"3.1.6",
     "dependencies":{
         "com.unity.splines":"2.0.0","com.unity.modules.imgui":"1.0.0"
     },
@@ -234,7 +234,7 @@
     "name":"com.unity.collab-proxy",
     "displayName":"Unity Version Control",
     "description":"The package gives you the ability to use Unity Version Control in the Unity editor. To use Unity Version Control, a subscription is required. Learn more about how you can get started for free by visiting https://unity.com/solutions/version-control",
-    "version":"2.11.3",
+    "version":"2.11.4",
     "dependencies":{
         
     },
@@ -1686,7 +1686,7 @@
     "name":"com.unity.timeline",
     "displayName":"Timeline",
     "description":"Use Unity Timeline to create cinematic content, game-play sequences, audio sequences, and complex particle effects.",
-    "version":"1.8.10",
+    "version":"1.8.11",
     "dependencies":{
         "com.unity.modules.audio":"1.0.0","com.unity.modules.director":"1.0.0","com.unity.modules.animation":"1.0.0","com.unity.modules.particlesystem":"1.0.0"
     },
