@@ -1136,9 +1136,9 @@
     "name":"com.unity.postprocessing",
     "displayName":"Post Processing",
     "description":"The post-processing stack (v2) comes with a collection of effects and image filters you can apply to your cameras to improve the visuals of your games.",
-    "version":"3.5.1",
+    "version":"3.5.3",
     "dependencies":{
-        "com.unity.modules.physics":"1.0.0"
+        "com.unity.modules.imgui":"1.0.0","com.unity.modules.physics":"1.0.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.postprocessing@3.5/manual/index.html"
 }
@@ -1301,11 +1301,11 @@
     "name":"com.unity.services.analytics",
     "displayName":"Analytics",
     "description":"The Unity Analytics package automatically collects core events and user properties when someone uses your game or application, and enables you to track specific in-game actions your user performs by defining custom events. The data collected from this package is surfaced in the Unity dashboard where you can use it to gather user insights, segment your player base and make informed decisions around the optimization of your game.",
-    "version":"6.2.2",
+    "version":"6.3.0",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.services.core":"1.16.0","com.unity.modules.jsonserialize":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.analytics@6.2/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.analytics@6.3/manual/index.html"
 }
 ,
 "com.unity.services.apis":{
@@ -1389,7 +1389,7 @@
     "name":"com.unity.services.deployment",
     "displayName":"Deployment",
     "description":"The Deployment package allows for a cohesive interface for the deployment of assets and configurations for UGS services.\n\nIt is not used on its own as UGS services will integrate with it.\nIt provides the base tooling, such as the Deployment Window, so that UGS services have shared functionality surrounding the deployment of the service's configuration files.\nCurrently supports:\n- Cloud Code\n- Economy\n- Leaderboards\n- Multiplayer Services\n\t- Server Hosting\n\t- Matchmaker\n- Services tooling\n\t- Game Overrides\n\t- Access Control\n- Remote Config",
-    "version":"1.7.1",
+    "version":"1.7.2",
     "dependencies":{
         "com.unity.services.core":"1.15.1","com.unity.services.deployment.api":"1.1.2"
     },
