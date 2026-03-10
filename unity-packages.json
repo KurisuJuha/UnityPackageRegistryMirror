@@ -1081,7 +1081,7 @@
     "name":"com.unity.performance.profile-analyzer",
     "displayName":"Profile Analyzer",
     "description":"The Profile Analyzer tool supports the standard Unity Profiler. You can use it to analyze multiple frames and multiple data sets of the CPU data in the Profiler.\n\nMain features: \n▪ Multi-frame analysis of a single set of Profiler CPU data \n▪ Comparison of two multi-frame profile scans \n\n",
-    "version":"1.3.2",
+    "version":"1.3.3",
     "dependencies":{
         
     },
