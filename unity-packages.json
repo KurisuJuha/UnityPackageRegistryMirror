@@ -134,12 +134,12 @@
 "com.unity.ads":{
     "name":"com.unity.ads",
     "displayName":"Advertisement Legacy",
-    "description":"Connect your game to the Unity Ads Network for iOS and Android to quickly and effectively monetize your games.\n\nNOTE: Unity has joined forces with ironSource and recommends using Unity LevelPlay for ad mediation (instead of this package). \n\nThis package will still be supported but no longer updated. To install Unity LevelPlay, use the Ads Mediation package (available below) or the LevelPlay plugin-in at https://developers.is.com/ironsource-mobile/unity/unity-plugin/.\n\nSupported platforms:\n- Android\n- iOS\n",
-    "version":"4.16.4",
+    "description":"NOTE: as of January 31, 2026, the Unity Ads network is completing its transition to in-app bidding and direct integration of the Unity Ads SDK using this package for monetization purposes is no longer supported. To begin or continue monetizing with Unity Ads and receiving access to all Unity Ads performance feature updates, we recommend installing the Ads Mediation package for LevelPlay, Unity's ad mediation platform. For more information, see:\n\nhttps://docs.unity.com/en-us/grow/levelplay/sdk/unity/package-integration\nhttps://docs.unity.com/en-us/grow/levelplay/sdk/unity/migrate-from-unity-ads-to-levelplay",
+    "version":"4.17.0",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.modules.androidjni":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.ads@4.16/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.ads@4.17/manual/index.html"
 }
 ,
 "com.unity.ads.ios-support":{
@@ -1664,7 +1664,7 @@
     "name":"com.unity.test-framework.performance",
     "displayName":"Performance testing API",
     "description":"Package that extends Unity Test Framework package. Adds performance testing capabilities and collects configuration metadata.",
-    "version":"3.2.0",
+    "version":"3.2.1",
     "dependencies":{
         "com.unity.test-framework":"1.1.33","com.unity.modules.jsonserialize":"1.0.0"
     },
@@ -1785,11 +1785,11 @@
     "name":"com.unity.visualscripting",
     "displayName":"Visual Scripting",
     "description":"Visual scripting is a workflow that uses visual, node-based graphs to design behaviors rather than write lines of C# script.\n\nEnabling artists, designers and programmers alike, visual scripting can be used to design final logic, quickly create prototypes, iterate on gameplay and create custom nodes to help streamline collaboration.\n\nVisual scripting is compatible with third-party APIs, including most packages, assets and custom libraries.",
-    "version":"1.9.10",
+    "version":"1.9.11",
     "dependencies":{
         "com.unity.ugui":"1.0.0","com.unity.modules.jsonserialize":"1.0.0"
     },
-    "documentation":""
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.visualscripting@1.9/manual/index.html"
 }
 ,
 "com.unity.xr.arcore":{
