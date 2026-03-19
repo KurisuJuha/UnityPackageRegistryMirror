@@ -157,7 +157,7 @@
     "name":"com.unity.ai.navigation",
     "displayName":"AI Navigation",
     "description":"The AI Navigation package contains high-level components that allow you to use navmeshes to incorporate navigation and pathfinding in your game. With this package installed you can build and use navmeshes at runtime and at edit time, create dynamic obstacles, and use links to allow specific actions (like jumping) as your characters navigate between navmeshes.",
-    "version":"2.0.11",
+    "version":"2.0.12",
     "dependencies":{
         "com.unity.modules.ai":"1.0.0"
     },
@@ -1576,11 +1576,11 @@
     "name":"com.unity.services.vivox",
     "displayName":"Vivox",
     "description":"Unity's voice and text chat service for multiplayer communication offers voice chat and direct message text service with a managed hosted solution. Plug into your game and configure your project settings to add communications to your project immediately. Connect an unlimited number of users in 2D and 3D channels. Monitor concurrency on your dashboard. Add a custom UI to allow players to control voice volume, mute, and add audio effects to voice channels and manage them. Place users in team chat and allow them to participate in multiple channels.",
-    "version":"16.9.0",
+    "version":"16.10.0",
     "dependencies":{
-        "com.unity.modules.audio":"1.0.0","com.unity.services.core":"1.14.0","com.unity.settings-manager":"1.0.3","com.unity.nuget.newtonsoft-json":"3.0.2"
+        "com.unity.modules.audio":"1.0.0","com.unity.services.core":"1.15.1","com.unity.settings-manager":"1.0.3","com.unity.nuget.newtonsoft-json":"3.0.2"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.vivox@16.9/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.vivox@16.10/manual/index.html"
 }
 ,
 "com.unity.shadergraph":{
