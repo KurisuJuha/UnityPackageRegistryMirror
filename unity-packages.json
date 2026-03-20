@@ -25,7 +25,7 @@
     "name":"com.unity.2d.aseprite",
     "displayName":"2D Aseprite Importer",
     "description":"2D Aseprite Importer is a package which enables the import of .aseprite files from the Pixel Art tool Aseprite.",
-    "version":"1.1.10",
+    "version":"1.1.11",
     "dependencies":{
         "com.unity.2d.common":"6.0.6","com.unity.2d.sprite":"1.0.0","com.unity.mathematics":"1.2.6","com.unity.modules.animation":"1.0.0"
     },
@@ -509,7 +509,7 @@
     "name":"com.unity.localization",
     "displayName":"Localization",
     "description":"Use the Localization package to easily configure localization settings for your application.\n\nAdd support for multiple languages and regional variants, including:\n\n• String localization: Set different strings to display based on locale. Use the Smart Strings feature to add logic to automatically replace specific strings, such as placeholders and plurals.\n• Asset localization: Use a different asset (such as a texture, model, or audio file) based on a locale.\n• Pseudo-localization: Test how your project will adapt to different localizations at an early stage, before adding your translations.\n• Import and export localization data to XLIFF, CSV and Google Sheets.\n\nAdd localization to your projects using the Localization package to help make your applications more accessible to a wider audience.",
-    "version":"1.5.10",
+    "version":"1.5.11",
     "dependencies":{
         "com.unity.addressables":"1.25.0","com.unity.nuget.newtonsoft-json":"3.0.2"
     },
@@ -1664,11 +1664,11 @@
     "name":"com.unity.test-framework.performance",
     "displayName":"Performance testing API",
     "description":"Package that extends Unity Test Framework package. Adds performance testing capabilities and collects configuration metadata.",
-    "version":"3.2.1",
+    "version":"3.3.0",
     "dependencies":{
         "com.unity.test-framework":"1.1.33","com.unity.modules.jsonserialize":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.2/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.3/manual/index.html"
 }
 ,
 "com.unity.testtools.codecoverage":{
