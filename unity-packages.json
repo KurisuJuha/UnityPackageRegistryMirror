@@ -1070,11 +1070,11 @@
     "name":"com.unity.netcode.gameobjects",
     "displayName":"Netcode for GameObjects",
     "description":"Netcode for GameObjects is a high-level netcode SDK that provides networking capabilities to GameObject/MonoBehaviour workflows within Unity and sits on top of underlying transport layer.",
-    "version":"2.10.0",
+    "version":"2.11.0",
     "dependencies":{
         "com.unity.transport":"2.6.0","com.unity.nuget.mono-cecil":"1.11.4"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.10/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.netcode.gameobjects@2.11/manual/index.html"
 }
 ,
 "com.unity.performance.profile-analyzer":{
@@ -1686,7 +1686,7 @@
     "name":"com.unity.timeline",
     "displayName":"Timeline",
     "description":"Use Unity Timeline to create cinematic content, game-play sequences, audio sequences, and complex particle effects.",
-    "version":"1.8.11",
+    "version":"1.8.12",
     "dependencies":{
         "com.unity.modules.audio":"1.0.0","com.unity.modules.director":"1.0.0","com.unity.modules.animation":"1.0.0","com.unity.modules.particlesystem":"1.0.0"
     },
