@@ -553,22 +553,22 @@
     "name":"com.unity.microsoft.gdk",
     "displayName":"Microsoft GDK API",
     "description":"Provides support for the Microsoft Game Development Kit making it available to approved platforms. Requires the Microsoft platform APIs to be pre-installed.",
-    "version":"1.5.1",
+    "version":"1.6.0",
     "dependencies":{
-        "com.unity.microsoft.gdk.discovery":"1.2.1"
+        "com.unity.microsoft.gdk.discovery":"1.3.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.microsoft.gdk@1.5/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.microsoft.gdk@1.6/manual/index.html"
 }
 ,
 "com.unity.microsoft.gdk.tools":{
     "name":"com.unity.microsoft.gdk.tools",
     "displayName":"Microsoft GDK Tools",
     "description":"This package adds GDK workflow support when used in combination with com.unity.microsoft.gdk",
-    "version":"1.5.1",
+    "version":"1.6.0",
     "dependencies":{
-        "com.unity.microsoft.gdk.discovery":"1.2.1"
+        "com.unity.microsoft.gdk.discovery":"1.3.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.microsoft.gdk.tools@1.5/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.microsoft.gdk.tools@1.6/manual/index.html"
 }
 ,
 "com.unity.ml-agents":{
@@ -1488,11 +1488,11 @@
     "name":"com.unity.services.multiplayer",
     "displayName":"Multiplayer Services",
     "description":"The Multiplayer Services package is a one-stop solution for adding multiplayer elements to a game developed in Unity. The Unity Gaming Services (UGS) Multiplayer services powers these capabilities to define how groups of players interact in your games.",
-    "version":"2.1.3",
+    "version":"2.2.0",
     "dependencies":{
-        "com.unity.transport":"2.6.0","com.unity.collections":"2.2.1","com.unity.services.qos":"1.4.1","com.unity.services.core":"1.16.0","com.unity.services.wire":"1.4.1","com.unity.services.deployment":"1.7.1","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.6.0"
+        "com.unity.transport":"2.6.0","com.unity.collections":"2.2.1","com.unity.services.qos":"1.4.1","com.unity.services.core":"1.16.0","com.unity.services.wire":"1.4.3","com.unity.services.deployment":"1.7.1","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.6.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.multiplayer@2.1/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.multiplayer@2.2/manual/index.html"
 }
 ,
 "com.unity.services.playeraccounts":{
