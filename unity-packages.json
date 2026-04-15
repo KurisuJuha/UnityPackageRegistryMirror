@@ -443,7 +443,7 @@
     "name":"com.unity.ide.rider",
     "displayName":"JetBrains Rider Editor",
     "description":"The JetBrains Rider Editor package provides an integration for using the JetBrains Rider IDE as a code editor for Unity. It adds support for generating .csproj files for code completion and auto-discovery of installations.",
-    "version":"3.0.39",
+    "version":"3.0.40",
     "dependencies":{
         "com.unity.ext.nunit":"1.0.6"
     },
@@ -1422,7 +1422,7 @@
     "name":"com.unity.services.leaderboards",
     "displayName":"Leaderboards",
     "description":"Add socio-competitive elements to your game by allowing users to compete on leaderboards. Use the Leaderboards service to store, sort, and rank player scores powered by Unity Gaming Services.",
-    "version":"2.3.3",
+    "version":"2.3.4",
     "dependencies":{
         "com.unity.services.core":"1.15.1","com.unity.services.authentication":"3.3.3"
     },
@@ -1862,11 +1862,11 @@
     "name":"com.unity.xr.management",
     "displayName":"XR Plugin Management",
     "description":"Package that provides simple management of XR plug-ins. Manages and offers help with loading, initialization, settings, and build support for XR plug-ins.",
-    "version":"4.5.4",
+    "version":"4.6.0",
     "dependencies":{
         "com.unity.modules.xr":"1.0.0","com.unity.xr.core-utils":"2.2.1","com.unity.modules.subsystems":"1.0.0","com.unity.xr.legacyinputhelpers":"2.1.11"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.management@4.5/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.xr.management@4.6/manual/index.html"
 }
 ,
 "com.unity.xr.meta-openxr":{
