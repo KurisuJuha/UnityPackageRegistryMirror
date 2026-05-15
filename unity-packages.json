@@ -113,11 +113,11 @@
     "name":"com.unity.addressables",
     "displayName":"Addressables",
     "description":"The Addressable Asset System allows the developer to ask for an asset via its address. Once an asset (e.g. a prefab) is marked \"addressable\", it generates an address which can be called from anywhere. Wherever the asset resides (local or remote), the system will locate it and its dependencies, then return it.\n\nUse 'Window->Asset Management->Addressables' to begin working with the system.\n\nAddressables use asynchronous loading to support loading from any location with any collection of dependencies. Whether you have been using direct references, traditional asset bundles, or Resource folders, addressables provide a simpler way to make your game more dynamic. Addressables simultaneously opens up the world of asset bundles while managing all the complexity.\n\nFor usage samples, see github.com/Unity-Technologies/Addressables-Sample",
-    "version":"2.11.1",
+    "version":"3.0.0",
     "dependencies":{
-        "com.unity.profiling.core":"1.0.2","com.unity.test-framework":"1.4.5","com.unity.modules.assetbundle":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.imageconversion":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0","com.unity.scriptablebuildpipeline":"3.0.2","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
+        "com.unity.profiling.core":"1.0.2","com.unity.test-framework":"1.4.5","com.unity.modules.assetbundle":"1.0.0","com.unity.modules.jsonserialize":"1.0.0","com.unity.modules.imageconversion":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0","com.unity.scriptablebuildpipeline":"3.1.0","com.unity.modules.unitywebrequestassetbundle":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.addressables@2.11/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.addressables@3.0/manual/index.html"
 }
 ,
 "com.unity.addressables.android":{
@@ -1257,11 +1257,11 @@
     "name":"com.unity.scriptablebuildpipeline",
     "displayName":"Scriptable Build Pipeline",
     "description":"The Scriptable Build Pipeline moves the asset bundle build pipeline to C#.  Use the pre-defined build flows, or create your own using the divided up APIs.  This system improves build time, fixes incremental build, and provides greater flexibility.",
-    "version":"3.0.2",
+    "version":"3.1.0",
     "dependencies":{
         "com.unity.test-framework":"1.4.5","com.unity.modules.assetbundle":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.scriptablebuildpipeline@3.0/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.scriptablebuildpipeline@3.1/manual/index.html"
 }
 ,
 "com.unity.scripting.python":{
@@ -1664,11 +1664,11 @@
     "name":"com.unity.test-framework.performance",
     "displayName":"Performance testing API",
     "description":"Package that extends Unity Test Framework package. Adds performance testing capabilities and collects configuration metadata.",
-    "version":"3.4.2",
+    "version":"3.5.0",
     "dependencies":{
         "com.unity.test-framework":"1.1.33","com.unity.modules.jsonserialize":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.4/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.test-framework.performance@3.5/manual/index.html"
 }
 ,
 "com.unity.testtools.codecoverage":{
