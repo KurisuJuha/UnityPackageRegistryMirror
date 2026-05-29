@@ -190,7 +190,7 @@
     "name":"com.unity.behavior",
     "displayName":"Behavior",
     "description":"Unity Behavior is a graph-based tool to create and run behavior trees with a modular architecture.\n\n▪ Human-readable graphs flow top-to-bottom with plain-language nodes\n▪ Comprehensive library of pre-built nodes for movement, detection, and decision-making\n▪ Seamless C# integration with a familiar lifecycle model\n▪ Hierarchical design supporting reusable subgraphs\n▪ Real-time debugging visualization during Play mode\n▪ Event-driven architecture and observer abort support for dynamic game reactions\n\nIdeal for NPC behaviors, quest logic, environmental interactions, and game state management.\n\nA demo showcasing this package can be found in the Asset Store https://assetstore.unity.com/packages/templates/tutorials/behavior-demo-for-unity-298313.",
-    "version":"1.0.15",
+    "version":"1.0.16",
     "dependencies":{
         "com.unity.burst":"1.7.2","com.unity.dt.app-ui":"2.0.0","com.unity.modules.ai":"1.0.0","com.unity.collections":"2.1.4","com.unity.modules.audio":"1.0.0","com.unity.modules.animation":"1.0.0","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.particlesystem":"1.0.0","com.unity.modules.unitywebrequest":"1.0.0"
     },
@@ -1488,9 +1488,9 @@
     "name":"com.unity.services.multiplayer",
     "displayName":"Multiplayer Services",
     "description":"The Multiplayer Services package is a one-stop solution for adding multiplayer elements to a game developed in Unity. The Unity Gaming Services (UGS) Multiplayer services powers these capabilities to define how groups of players interact in your games.",
-    "version":"2.2.2",
+    "version":"2.2.3",
     "dependencies":{
-        "com.unity.transport":"2.6.0","com.unity.collections":"2.2.1","com.unity.services.qos":"1.4.1","com.unity.services.core":"1.16.0","com.unity.services.wire":"1.4.3","com.unity.services.deployment":"1.7.1","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.6.0"
+        "com.unity.transport":"2.6.0","com.unity.collections":"2.2.1","com.unity.services.qos":"1.4.1","com.unity.services.core":"1.16.0","com.unity.services.wire":"1.4.4","com.unity.services.deployment":"1.7.1","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0","com.unity.services.authentication":"3.6.0"
     },
     "documentation":"https://docs.unity3d.com/Packages/com.unity.services.multiplayer@2.2/manual/index.html"
 }
@@ -1598,7 +1598,7 @@
     "name":"com.unity.sharp-zip-lib",
     "displayName":"SharpZipLib",
     "description":"A package that wraps SharpZipLib (https://github.com/icsharpcode/SharpZipLib) to be used inside Unity",
-    "version":"1.4.1",
+    "version":"1.4.2",
     "dependencies":{
         
     },
