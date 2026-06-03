@@ -157,7 +157,7 @@
     "name":"com.unity.ai.navigation",
     "displayName":"AI Navigation",
     "description":"The AI Navigation package contains high-level components that allow you to use navmeshes to incorporate navigation and pathfinding in your game. With this package installed you can build and use navmeshes at runtime and at edit time, create dynamic obstacles, and use links to allow specific actions (like jumping) as your characters navigate between navmeshes.",
-    "version":"2.0.12",
+    "version":"2.0.13",
     "dependencies":{
         "com.unity.modules.ai":"1.0.0"
     },
@@ -1895,7 +1895,7 @@
     "name":"com.unity.xr.openxr",
     "displayName":"OpenXR Plugin",
     "description":"OpenXR is an open, royalty-free standard developed by Khronos that aims to simplify AR/VR development by allowing developers to target a wide range of AR/VR devices. Use this plug-in to enable OpenXR in XR Plug-in Management.",
-    "version":"1.17.0",
+    "version":"1.17.1",
     "dependencies":{
         "com.unity.inputsystem":"1.6.3","com.unity.xr.core-utils":"2.3.0","com.unity.xr.management":"4.4.0","com.unity.modules.androidjni":"1.0.0","com.unity.xr.legacyinputhelpers":"2.1.2"
     },
