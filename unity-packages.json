@@ -421,7 +421,7 @@
     "name":"com.unity.formats.alembic",
     "displayName":"Alembic",
     "description":"Import and export Alembic files (.abc), record and stream animations in the Alembic format directly in Unity.\nNOTE: Supported build platforms: only Windows 64-bit/Arm64, macOS X, and Linux 64.\n\nThe Alembic format is commonly used in animation to transfer facial, cloth, and other simulation between applications in the form of baked data.",
-    "version":"2.4.4",
+    "version":"2.4.5",
     "dependencies":{
         "com.unity.timeline":"1.8.7","com.unity.modules.cloth":"1.0.0","com.unity.modules.unityanalytics":"1.0.0"
     },
@@ -1576,11 +1576,11 @@
     "name":"com.unity.services.vivox",
     "displayName":"Vivox",
     "description":"Unity's voice and text chat service for multiplayer communication offers voice chat and direct message text service with a managed hosted solution. Plug into your game and configure your project settings to add communications to your project immediately. Connect an unlimited number of users in 2D and 3D channels. Monitor concurrency on your dashboard. Add a custom UI to allow players to control voice volume, mute, and add audio effects to voice channels and manage them. Place users in team chat and allow them to participate in multiple channels.",
-    "version":"16.10.0",
+    "version":"16.11.0",
     "dependencies":{
         "com.unity.modules.audio":"1.0.0","com.unity.services.core":"1.15.1","com.unity.settings-manager":"1.0.3","com.unity.nuget.newtonsoft-json":"3.0.2"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.vivox@16.10/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.vivox@16.11/manual/index.html"
 }
 ,
 "com.unity.shadergraph":{
