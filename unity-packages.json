@@ -223,7 +223,7 @@
     "name":"com.unity.cinemachine",
     "displayName":"Cinemachine",
     "description":"Smart camera tools for passionate creators. \n\nCinemachine 3 is a newer and better version of Cinemachine, but upgrading an existing project from 2.X will likely require some effort.  If you're considering upgrading an older project, please see our upgrade guide in the user manual.",
-    "version":"3.1.6",
+    "version":"3.1.7",
     "dependencies":{
         "com.unity.splines":"2.0.0","com.unity.modules.imgui":"1.0.0"
     },
@@ -1147,11 +1147,11 @@
     "name":"com.unity.probuilder",
     "displayName":"ProBuilder",
     "description":"Build, edit, and texture custom geometry in Unity. Use ProBuilder for in-scene level design, prototyping, collision meshes, all with on-the-fly play-testing.\n\nAdvanced features include UV editing, vertex colors, parametric shapes, and texture blending. With ProBuilder's model export feature it's easy to tweak your levels in any external 3D modelling suite.",
-    "version":"6.0.9",
+    "version":"6.1.0",
     "dependencies":{
         "com.unity.shadergraph":"17.0.3","com.unity.modules.imgui":"1.0.0","com.unity.modules.physics":"1.0.0","com.unity.settings-manager":"1.0.3"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.probuilder@6.0/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.probuilder@6.1/manual/index.html"
 }
 ,
 "com.unity.profiling.core":{
@@ -1323,11 +1323,11 @@
     "name":"com.unity.services.authentication",
     "displayName":"Authentication",
     "description":"Client SDK offering player identity management for Unity Gaming Services.\n\nIdentity providers can be configured from the editor or the Unity Dashboard.\n\nPlayer management is available in the Unity Dashboard.",
-    "version":"3.6.1",
+    "version":"3.7.0",
     "dependencies":{
-        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.15.1","com.unity.nuget.newtonsoft-json":"3.2.1","com.unity.modules.unitywebrequest":"1.0.0"
+        "com.unity.ugui":"1.0.0","com.unity.services.core":"1.18.0","com.unity.nuget.newtonsoft-json":"3.2.2","com.unity.modules.unitywebrequest":"1.0.0"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.authentication@3.6/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.services.authentication@3.7/manual/index.html"
 }
 ,
 "com.unity.services.ccd.management":{
@@ -1609,11 +1609,11 @@
     "name":"com.unity.splines",
     "displayName":"Splines",
     "description":"Work with curves and paths. Use the Splines package to generate objects and behaviors along paths, create trajectories, and draw shapes.",
-    "version":"2.8.4",
+    "version":"2.9.0",
     "dependencies":{
         "com.unity.mathematics":"1.2.1","com.unity.modules.imgui":"1.0.0","com.unity.settings-manager":"1.0.3"
     },
-    "documentation":"https://docs.unity3d.com/Packages/com.unity.splines@2.8/manual/index.html"
+    "documentation":"https://docs.unity3d.com/Packages/com.unity.splines@2.9/manual/index.html"
 }
 ,
 "com.unity.sysroot":{
